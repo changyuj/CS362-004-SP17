@@ -38,19 +38,15 @@ int main()
 {
 	int newCards = 0;
     int discarded = 1;
-    int xtraCoins = 0;
-    int shuffledCards = 0;
 	int actions = 0;
 	
-    int i, j;
+    int j;
     int handpos = 0, choice1 = 0, choice2 = 0, choice3 = 0, bonus = 0;
-    int remove1, remove2;
     int seed = 1000;
     int numPlayers = 2;
     int thisPlayer = 0;
 	struct gameState G, testG;
 	
-	int preTreasureCard = 0, postTreasureCard = 0, preDeckTreasure = 0, postDeckTreasure = 0;
 	//Kingdom cards
 	int k[10] = {adventurer, embargo, village, minion, mine, cutpurse, sea_hag, tribute, smithy, council_room};
 
@@ -94,7 +90,7 @@ int main()
 	assertEqual(testG.deckCount[thisPlayer+1], G.deckCount[thisPlayer+1], 3);
 	
 	// ----------- TEST 4: No state change should occur to the victory card piles and kingdom card piles --------------	
-	printf"TEST 4: No state change should occur to victory card and kingdome card piles\n");
+	printf("TEST 4: No state change should occur to victory card and kingdome card piles\n");
 	for(j = 0; j < 16; j++)
 	{
 		printf("Supply count for %s = %d, expected %d\n", supplyString[j], testG.supplyCount[supplyPile[j]], G.supplyCount[supplyPile[j]]);

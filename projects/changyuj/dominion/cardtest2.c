@@ -40,12 +40,10 @@ int main()
 {
 	int newCards = 0;
     int discarded = 1;
-    int xtraCoins = 0;
     int shuffledCards = 0;
 
     int i, j;
     int handpos = 0, choice1 = 0, choice2 = 0, choice3 = 0, bonus = 0;
-    int remove1, remove2;
     int seed = 1000;
     int numPlayers = 2;
     int thisPlayer = 0;
@@ -74,19 +72,19 @@ int main()
 	memcpy(&testG, &G, sizeof(struct gameState));
 
 	//treasure cards in hand before adventure card
-	for (i = 0; i < testG->handCount[thisPlayer]; i++)
+	for (i = 0; i < testG.handCount[thisPlayer]; i++)
     {
-      if (testG->hand[thisPlayer][i] == copper) { preTreasureCard = preTreasureCard + 1; };
-      if (testG->hand[thisPlayer][i] == silver) { preTreasureCard = preTreasureCard + 1; };
-      if (testG->hand[thisPlayer][i] == gold) { preTreasureCard = preTreasureCard + 1; };
+      if (testG.hand[thisPlayer][i] == copper) { preTreasureCard = preTreasureCard + 1; };
+      if (testG.hand[thisPlayer][i] == silver) { preTreasureCard = preTreasureCard + 1; };
+      if (testG.hand[thisPlayer][i] == gold) { preTreasureCard = preTreasureCard + 1; };
     }
 	
 	//treasure cards in deck before adventure card
-	for (i = 0; i < testG->deckCount[thisPlayer]; i++)
+	for (i = 0; i < testG.deckCount[thisPlayer]; i++)
     {
-      if (testG->deck[thisPlayer][i] == copper) { preDeckTreasure = preDeckTreasure + 1; };
-      if (testG->deck[thisPlayer][i] == silver) { preDeckTreasure = preDeckTreasure + 1; };
-      if (testG->deck[thisPlayer][i] == gold) { preDeckTreasure = preDeckTreasure + 1; };
+      if (testG.deck[thisPlayer][i] == copper) { preDeckTreasure = preDeckTreasure + 1; };
+      if (testG.deck[thisPlayer][i] == silver) { preDeckTreasure = preDeckTreasure + 1; };
+      if (testG.deck[thisPlayer][i] == gold) { preDeckTreasure = preDeckTreasure + 1; };
     }
 	cardEffect(adventurer, choice1, choice2, choice3, &testG, handpos, &bonus);
 	
@@ -98,19 +96,19 @@ int main()
 	printf("TEST 1a: Current player hand should have increased 2 treasure cards\n");
 	
 	//treasure cards in hand after adventure card
-	for (i = 0; i < testG->handCount[thisPlayer]; i++)
+	for (i = 0; i < testG.handCount[thisPlayer]; i++)
     {
-      if (testG->hand[thisPlayer][i] == copper) { postTreasureCard = postTreasureCard + 1; };
-      if (testG->hand[thisPlayer][i] == silver) { postTreasureCard = postTreasureCard + 1; };
-      if (testG->hand[thisPlayer][i] == gold) { postTreasureCard = postTreasureCard + 1; };
+      if (testG.hand[thisPlayer][i] == copper) { postTreasureCard = postTreasureCard + 1; };
+      if (testG.hand[thisPlayer][i] == silver) { postTreasureCard = postTreasureCard + 1; };
+      if (testG.hand[thisPlayer][i] == gold) { postTreasureCard = postTreasureCard + 1; };
     }
 	
 	//treasure cards in deck after adventure card
-	for (i = 0; i < testG->deckCount[thisPlayer]; i++)
+	for (i = 0; i < testG.deckCount[thisPlayer]; i++)
     {
-      if (testG->deck[thisPlayer][i] == copper) { postDeckTreasure = postDeckTreasure + 1; };
-      if (testG->deck[thisPlayer][i] == silver) { postDeckTreasure = postDeckTreasure + 1; };
-      if (testG->deck[thisPlayer][i] == gold) { postDeckTreasure = postDeckTreasure + 1; };
+      if (testG.deck[thisPlayer][i] == copper) { postDeckTreasure = postDeckTreasure + 1; };
+      if (testG.deck[thisPlayer][i] == silver) { postDeckTreasure = postDeckTreasure + 1; };
+      if (testG.deck[thisPlayer][i] == gold) { postDeckTreasure = postDeckTreasure + 1; };
     }
 	
 	printf("treasure card count = %d, expected = %d\n", postTreasureCard, preTreasureCard + newCards);
@@ -124,7 +122,7 @@ int main()
 	
 	printf("TEST 2a: Current player deck should have 2 less treasure cards\n");
 	printf("treasure card count = %d, expected = %d\n", postDeckTreasure, preDeckTreasure + newCards);
-	assertEqual(postDeckTreasure, preDeckTreasure +newCards, 2)
+	assertEqual(postDeckTreasure, preDeckTreasure +newCards, 2);
 	
 	// ----------- TEST 3: No state change should occur for other players --------------	
 	printf("TEST 3: No state change should occur for other players\n");
@@ -134,7 +132,7 @@ int main()
 	assertEqual(testG.deckCount[thisPlayer+1], G.deckCount[thisPlayer+1], 3);
 	
 	// ----------- TEST 4: No state change should occur to the victory card piles and kingdom card piles --------------	
-	printf"TEST 4: No state change should occur to victory card and kingdome card piles\n");
+	printf("TEST 4: No state change should occur to victory card and kingdome card piles\n");
 	for(j = 0; j < 16; j++)
 	{
 		printf("Supply count for %s = %d, expected %d\n", supplyString[j], testG.supplyCount[supplyPile[j]], G.supplyCount[supplyPile[j]]);

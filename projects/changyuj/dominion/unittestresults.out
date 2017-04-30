@@ -1,0 +1,781 @@
+Running unit test results:
+unittest1.c:
+TESTING Shuffle():
+Test player 0 with 0 card(s) in deck.
+0 card in deck, no shuffle
+
+----------------- Shuffle Test: Passed -----------------
+Test player 0 with 1 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Failed -----------------
+
+Test player 0 with 2 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Failed -----------------
+
+Test player 0 with 3 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 0 with 4 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 0 with 5 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 0 with 6 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 0 with 7 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 0 with 8 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 0 with 9 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 0 with 10 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 1 with 0 card(s) in deck.
+0 card in deck, no shuffle
+
+----------------- Shuffle Test: Passed -----------------
+Test player 1 with 1 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Failed -----------------
+
+Test player 1 with 2 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 1 with 3 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 1 with 4 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 1 with 5 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 1 with 6 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 1 with 7 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 1 with 8 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 1 with 9 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+Test player 1 with 10 card(s) in deck.
+More than one care in deck, shuffle
+
+----------------- Shuffle Test: Passed -----------------
+G.deck does not equal G2.deck after shuffle
+
+----------------- Shuffle Test: Passed -----------------
+
+All tests passed!
+File 'dominion.c'
+Lines executed:16.16% of 563
+Branches executed:15.83% of 417
+Taken at least once:13.43% of 417
+Calls executed:6.86% of 102
+Creating 'dominion.c.gcov'
+
+unittest2.c:
+TESTING kingdomCards():
+Compare card 1 with kingdom card.
+card 1 = 7, expected = 7
+
+----------------- Card matching Test: Passed -----------------
+Compare card 2 with kingdom card.
+card 2 = 8, expected = 8
+
+----------------- Card matching Test: Passed -----------------
+Compare card 3 with kingdom card.
+card 3 = 9, expected = 9
+
+----------------- Card matching Test: Passed -----------------
+Compare card 4 with kingdom card.
+card 4 = 10, expected = 10
+
+----------------- Card matching Test: Passed -----------------
+Compare card 5 with kingdom card.
+card 5 = 11, expected = 11
+
+----------------- Card matching Test: Passed -----------------
+Compare card 6 with kingdom card.
+card 6 = 12, expected = 12
+
+----------------- Card matching Test: Passed -----------------
+Compare card 7 with kingdom card.
+card 7 = 13, expected = 13
+
+----------------- Card matching Test: Passed -----------------
+Compare card 8 with kingdom card.
+card 8 = 14, expected = 14
+
+----------------- Card matching Test: Passed -----------------
+Compare card 9 with kingdom card.
+card 9 = 15, expected = 15
+
+----------------- Card matching Test: Passed -----------------
+Compare card 10 with kingdom card.
+card 10 = 16, expected = 16
+
+----------------- Card matching Test: Passed -----------------
+Changed card # 7 in kingdom card.
+card 1 = 7, expected = 7
+
+----------------- Card matching Test: Passed -----------------
+card 2 = 8, expected = 8
+
+----------------- Card matching Test: Passed -----------------
+card 3 = 9, expected = 9
+
+----------------- Card matching Test: Passed -----------------
+card 4 = 10, expected = 10
+
+----------------- Card matching Test: Passed -----------------
+card 5 = 11, expected = 11
+
+----------------- Card matching Test: Passed -----------------
+card 6 = 12, expected = 12
+
+----------------- Card matching Test: Passed -----------------
+card 7 = 15, expected = 13
+
+----------------- Card matching Test: Failed -----------------
+card 8 = 14, expected = 14
+
+----------------- Card matching Test: Passed -----------------
+card 9 = 15, expected = 15
+
+----------------- Card matching Test: Passed -----------------
+card 10 = 16, expected = 16
+
+----------------- Card matching Test: Passed -----------------
+One of the card does not match.
+File 'dominion.c'
+Lines executed:2.31% of 563
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+Calls executed:0.00% of 102
+Creating 'dominion.c.gcov'
+
+unittest3.c:
+TESTING whoseTurn():
+Player 1's turn.
+player 1  turn, expected = 1
+
+----------------- Test: Passed -----------------
+Player 2's turn.
+player 2  turn, expected = 2
+
+----------------- Test: Passed -----------------
+Player 3's turn.
+player 3  turn, expected = 3
+
+----------------- Test: Passed -----------------
+Player 4's turn.
+player 4  turn, expected = 4
+
+----------------- Test: Passed -----------------
+Player 5's turn.
+player 5  turn, expected = 5
+
+----------------- Test: Passed -----------------
+Player 6's turn.
+player 6  turn, expected = 6
+
+----------------- Test: Passed -----------------
+Player 7's turn.
+player 7  turn, expected = 7
+
+----------------- Test: Passed -----------------
+Player 8's turn.
+player 8  turn, expected = 8
+
+----------------- Test: Passed -----------------
+Player 9's turn.
+player 9  turn, expected = 9
+
+----------------- Test: Passed -----------------
+Player 10's turn.
+player 10  turn, expected = 10
+
+----------------- Test: Passed -----------------
+
+ >>>>> SUCCESS: Testing complete  <<<<<
+
+File 'dominion.c'
+Lines executed:0.36% of 563
+Branches executed:0.00% of 417
+Taken at least once:0.00% of 417
+Calls executed:0.00% of 102
+Creating 'dominion.c.gcov'
+
+unittest4.c:
+Test Card Cost with getCost():
+Card 1 cost 0, expected = 0
+
+----------------- Test: Passed -----------------
+Card 2 cost 2, expected = 2
+
+----------------- Test: Passed -----------------
+Card 3 cost 5, expected = 5
+
+----------------- Test: Passed -----------------
+Card 4 cost 8, expected = 8
+
+----------------- Test: Passed -----------------
+Card 5 cost 0, expected = 0
+
+----------------- Test: Passed -----------------
+Card 6 cost 3, expected = 3
+
+----------------- Test: Passed -----------------
+Card 7 cost 6, expected = 6
+
+----------------- Test: Passed -----------------
+Card 8 cost 6, expected = 6
+
+----------------- Test: Passed -----------------
+Card 9 cost 5, expected = 5
+
+----------------- Test: Passed -----------------
+Card 10 cost 4, expected = 4
+
+----------------- Test: Passed -----------------
+Card 11 cost 4, expected = 4
+
+----------------- Test: Passed -----------------
+Card 12 cost 5, expected = 5
+
+----------------- Test: Passed -----------------
+Card 13 cost 4, expected = 4
+
+----------------- Test: Passed -----------------
+Card 14 cost 4, expected = 4
+
+----------------- Test: Passed -----------------
+Card 15 cost 3, expected = 3
+
+----------------- Test: Passed -----------------
+Card 16 cost 4, expected = 4
+
+----------------- Test: Passed -----------------
+Card 17 cost 3, expected = 3
+
+----------------- Test: Passed -----------------
+Card 18 cost 5, expected = 5
+
+----------------- Test: Passed -----------------
+Card 19 cost 3, expected = 3
+
+----------------- Test: Passed -----------------
+Card 20 cost 5, expected = 5
+
+----------------- Test: Passed -----------------
+Card 21 cost 3, expected = 3
+
+----------------- Test: Passed -----------------
+Card 22 cost 4, expected = 4
+
+----------------- Test: Passed -----------------
+Card 23 cost 2, expected = 2
+
+----------------- Test: Passed -----------------
+Card 24 cost 5, expected = 5
+
+----------------- Test: Passed -----------------
+Card 25 cost 4, expected = 4
+
+----------------- Test: Passed -----------------
+Card 26 cost 4, expected = 4
+
+----------------- Test: Passed -----------------
+Card 27 cost 4, expected = 4
+
+----------------- Test: Passed -----------------
+
+ >>>>> SUCCESS: Testing complete  <<<<<
+
+File 'dominion.c'
+Lines executed:5.15% of 563
+Branches executed:6.71% of 417
+Taken at least once:6.47% of 417
+Calls executed:0.00% of 102
+Creating 'dominion.c.gcov'
+
+cardtest1.c:
+----------------- Testing Card: Smithy ----------------
+TEST 1: player 1 receives +3 cards
+hand count = 8, expected = 7
+
+----------------- Test #1: Failed -----------------
+TEST 2: 3 cards come from player 1 pile
+deck count = 1, expected = 2
+
+----------------- Test #2: Failed -----------------
+TEST 3: No state change should occur for other players
+player 2 hand count = 0, expected = 0
+
+----------------- Test #3: Passed -----------------
+player 2 deck count = 10, expected = 10
+
+----------------- Test #3: Passed -----------------
+TEST 4: No state change should occur to victory card and kingdome card piles
+Supply count for adventurer = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for embargo = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for village = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for minion = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for mine = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for cutpurse = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for sea_hag = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for tribute = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for smithy = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for council_room = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for estate = 8, expected 8
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for duchy = 8, expected 8
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for province = 8, expected 8
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for copper = 46, expected 46
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for silver = 40, expected 40
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for gold = 30, expected 30
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+
+ >>>>> SUCCESS: Testing complete Smithy <<<<<
+
+File 'dominion.c'
+Lines executed:20.07% of 563
+Branches executed:22.78% of 417
+Taken at least once:13.91% of 417
+Calls executed:11.76% of 102
+Creating 'dominion.c.gcov'
+
+cardtest2.c:
+----------------- Testing Card: Adventurer ----------------
+TEST 1: Current player should add 2 cards
+hand count = 7, expected = 6
+
+----------------- Test #1: Failed -----------------
+TEST 1a: Current player hand should have increased 2 treasure cards
+treasure card count = 6, expected = 6
+
+----------------- Test #1: Passed -----------------
+TEST 2: Current player deck pile should have 2 less cards
+deck count = 3, expected = 3
+
+----------------- Test #2: Passed -----------------
+TEST 2a: Current player deck should have 2 less treasure cards
+treasure card count = 1, expected = 5
+
+----------------- Test #2: Failed -----------------
+TEST 3: No state change should occur for other players
+player 2 hand count = 0, expected = 0
+
+----------------- Test #3: Passed -----------------
+player 2 deck count = 10, expected = 10
+
+----------------- Test #3: Passed -----------------
+TEST 4: No state change should occur to victory card and kingdome card piles
+Supply count for adventurer = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for embargo = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for village = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for minion = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for mine = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for cutpurse = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for sea_hag = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for tribute = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for smithy = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for council_room = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for estate = 8, expected 8
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for duchy = 8, expected 8
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for province = 8, expected 8
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for copper = 46, expected 46
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for silver = 40, expected 40
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for gold = 30, expected 30
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+
+ >>>>> SUCCESS: Testing complete Adventurer <<<<<
+
+File 'dominion.c'
+Lines executed:19.18% of 563
+Branches executed:22.78% of 417
+Taken at least once:13.91% of 417
+Calls executed:10.78% of 102
+Creating 'dominion.c.gcov'
+
+cardtest3.c:
+----------------- Testing Card: Village ----------------
+TEST 1: player 1 receives +1 cards
+hand count = 5, expected = 5
+
+----------------- Test #1: Passed -----------------
+TEST 2: player 1 have +2 actions
+action count = 3, expected = 3
+
+----------------- Test #2: Passed -----------------
+TEST 3: No state change should occur for other players
+player 2 hand count = 0, expected = 0
+
+----------------- Test #3: Passed -----------------
+player 2 deck count = 10, expected = 10
+
+----------------- Test #3: Passed -----------------
+TEST 4: No state change should occur to victory card and kingdome card piles
+Supply count for adventurer = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for embargo = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for village = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for minion = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for mine = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for cutpurse = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for sea_hag = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for tribute = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for smithy = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for council_room = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for estate = 8, expected 8
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for duchy = 8, expected 8
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for province = 8, expected 8
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for copper = 46, expected 46
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for silver = 40, expected 40
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for gold = 30, expected 30
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+
+ >>>>> SUCCESS: Testing complete Village <<<<<
+
+File 'dominion.c'
+Lines executed:19.54% of 563
+Branches executed:22.30% of 417
+Taken at least once:13.43% of 417
+Calls executed:9.80% of 102
+Creating 'dominion.c.gcov'
+
+cardtest4.c:
+----------------- Testing Card: Council Room ----------------
+TEST 1: player 1 receives +4 cards
+hand count = 9, expected = 8
+
+----------------- Test #1: Failed -----------------
+TEST 2: player 1 gets +1 buy
+buy count = 2, expected = 2
+
+----------------- Test #2: Passed -----------------
+TEST 3: State change should occur for other players
+player 2 hand count = 1, expected = 1
+
+----------------- Test #3: Passed -----------------
+player 2 deck count = 9, expected = 9
+
+----------------- Test #3: Passed -----------------
+TEST 4: No state change should occur to victory card and kingdome card piles
+Supply count for adventurer = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for embargo = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for village = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for minion = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for mine = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for cutpurse = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for sea_hag = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for tribute = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for smithy = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for council_room = 10, expected 10
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for estate = 8, expected 8
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for duchy = 8, expected 8
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for province = 8, expected 8
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for copper = 46, expected 46
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for silver = 40, expected 40
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+Supply count for gold = 30, expected 30
+
+----------------- Test #4: Passed -----------------
+----------------------------------------
+
+ >>>>> SUCCESS: Testing complete Council Room <<<<<
+
+File 'dominion.c'
+Lines executed:22.56% of 563
+Branches executed:24.70% of 417
+Taken at least once:15.83% of 417
+Calls executed:13.73% of 102
+Creating 'dominion.c.gcov'
+
