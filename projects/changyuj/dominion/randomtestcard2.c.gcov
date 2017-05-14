@@ -1,0 +1,218 @@
+        -:    0:Source:randomtestcard2.c
+        -:    0:Graph:randomtestcard2.gcno
+        -:    0:Data:randomtestcard2.gcda
+        -:    0:Runs:2
+        -:    0:Programs:1
+        -:    1:/******************************************************
+        -:    2: * Yu Ju Chang
+        -:    3: * randomtestcard2.c
+        -:    4: * Assignment 4
+        -:    5: *
+        -:    6: * village random test
+        -:    7: *****************************************************/
+        -:    8:#include <math.h>
+        -:    9:#include <stdlib.h>
+        -:   10:#include <stdio.h>
+        -:   11:#include <string.h>
+        -:   12:#include <time.h>
+        -:   13:#include "dominion.h"
+        -:   14:#include "dominion_helpers.h"
+        -:   15:#include "rand_test_helper.h"
+        -:   16:#include "rngs.h"
+        -:   17: 
+        -:   18:// set NOISY_TEST to 0 to remove printfs from output
+        -:   19:// set NOISY_TEST to 1 to display printfs in output
+        -:   20:#define NOISY_TEST 1
+        -:   21:#define TEST_SIZE 20
+        -:   22:#define DECK_SIZE 100
+        -:   23:#define HAND_SIZE 27
+        -:   24: 
+function checkSalvager called 94 returned 100% blocks executed 100%
+       94:   25: int checkSalvager(int thisPlayer, int choice1, struct gameState *testG, int handPos)
+        -:   26: {
+        -:   27:	struct gameState G2;
+       94:   28:	memcpy(&G2, testG, sizeof(struct gameState));
+       94:   29:	int initial_coins = 0, test_num = 0;
+        -:   30:	
+       94:   31:	updateCoins(thisPlayer, testG, 0);
+call    0 returned 100%
+       94:   32:	initial_coins = testG->coins;
+        -:   33:	
+       94:   34:	playSalvager(&G2, choice1, handPos);
+call    0 returned 100%
+        -:   35:	
+       94:   36:	updateCoins(thisPlayer, &G2, 0);
+call    0 returned 100%
+        -:   37:	
+        -:   38:#if (NOISY_TEST == 1)
+       94:   39:    printf("Testing player %d buys...should have 1 extra buy\n", thisPlayer+1);
+call    0 returned 100%
+       94:   40:	printf("\nTotal buy: %d\tExpected: %d\n",G2.numBuys, testG->numBuys+1);
+call    0 returned 100%
+        -:   41:#endif
+       94:   42:	test_num += assertEqual(testG->numBuys+1, G2.numBuys);
+call    0 returned 100%
+        -:   43:
+        -:   44:#if (NOISY_TEST == 1)
+       94:   45:	printf("Trashed card cost: %d \n", getCost(choice1));
+call    0 returned 100%
+call    1 returned 100%
+        -:   46:#endif
+        -:   47:	
+        -:   48:#if (NOISY_TEST == 1)
+       94:   49:    printf("Testing player %d coins... coins should increase by %d \n", thisPlayer+1, getCost(choice1));
+call    0 returned 100%
+call    1 returned 100%
+       94:   50:	printf("\nCoins: %d\tExpected: %d\n",G2.coins, initial_coins+getCost(choice1));
+call    0 returned 100%
+call    1 returned 100%
+        -:   51:#endif
+       94:   52:	test_num += assertEqual(G2.coins, initial_coins+getCost(choice1));
+call    0 returned 100%
+call    1 returned 100%
+        -:   53:	
+       94:   54:	return test_num;
+        -:   55: }
+function main called 2 returned 100% blocks executed 100%
+        2:   56: int main()
+        -:   57: {
+        -:   58:	int i, n, p, q, r, x, z, random, choice;
+        2:   59:	int failTest = 0, totalFailed = 0, counter = 0;
+        2:   60:	int k[10] = {adventurer, council_room, salvager, gardens, mine, remodel, smithy, village, baron, great_hall};
+        2:   61:    int seed = 1000;
+        -:   62:	
+        -:   63:	// Initialize random stream
+        2:   64:    SelectStream(2);
+call    0 returned 100%
+        2:   65:    PutSeed(3);
+call    0 returned 100%
+        -:   66:	
+        2:   67:	srand(time(NULL));
+call    0 returned 100%
+call    1 returned 100%
+        -:   68:	struct gameState G;
+        -:   69:	
+        2:   70:	printf ("Random Testing Adventurer.\n");
+call    0 returned 100%
+        -:   71:
+        2:   72:	printf ("RANDOM TESTS.\n");
+call    0 returned 100%
+        -:   73:
+        -:   74:
+       42:   75:	for(i = 0; i < TEST_SIZE; i++)
+branch  0 taken 95%
+branch  1 taken 5% (fallthrough)
+        -:   76:	{	
+        -:   77:
+        -:   78:		//randomized chao in hand
+  1052040:   79:		for (r = 0; r < sizeof(struct gameState); r++) 
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+        -:   80:		{
+  1052000:   81:			((char*)&G)[r] = floor(Random() * 256);
+call    0 returned 100%
+        -:   82:		}
+        -:   83:		
+        -:   84:		//random num of player
+       40:   85:		p = rand() % 4 + 1;
+call    0 returned 100%
+        -:   86:		
+        -:   87:		//clear gamestate
+       40:   88:		memset((char*)&G, 0, sizeof(struct gameState));
+        -:   89:		
+        -:   90:		//initialize game state
+       40:   91:		initializeGame(p, k, seed, &G);
+call    0 returned 100%
+        -:   92:		//set number of players
+       40:   93:		G.numPlayers = p;
+        -:   94:		
+        -:   95:		
+        -:   96:		//go through all player
+      134:   97:		for(n = 0; n < p; n++)
+branch  0 taken 70%
+branch  1 taken 30% (fallthrough)
+        -:   98:		{
+        -:   99:			//select player
+       94:  100:			G.whoseTurn = n;
+        -:  101:			
+        -:  102:			//set deck count with random size
+       94:  103:			G.deckCount[n] = floor(Random() * DECK_SIZE);;
+call    0 returned 100%
+       94:  104:			memset(G.deck[n], 0, sizeof(int) * G.deckCount[n]);
+        -:  105:			
+        -:  106:			//fill deck with random cards
+     2667:  107:			for(z = 0; z < G.deckCount[n]; z++)
+branch  0 taken 96%
+branch  1 taken 4% (fallthrough)
+        -:  108:			{
+     2573:  109:				random = floor(Random() * 28);
+call    0 returned 100%
+     2573:  110:				G.deck[n][z] = random;
+        -:  111:			}
+        -:  112:			
+        -:  113:			//set hand count with random size
+       94:  114:			G.handCount[n] = floor(Random() * HAND_SIZE);;
+call    0 returned 100%
+       94:  115:			memset(G.hand[n], 0, sizeof(int) * G.handCount[n]);
+        -:  116:
+        -:  117:			//fill hand with random cards
+     1084:  118:			for(x = 0; x < G.handCount[n]; x++)
+branch  0 taken 91%
+branch  1 taken 9% (fallthrough)
+        -:  119:			{
+      990:  120:				random = floor(Random() *28);
+call    0 returned 100%
+      990:  121:				G.hand[n][x] = random;
+        -:  122:			}
+        -:  123:			
+        -:  124:			//randomly insert Salvager in hand
+       94:  125:			int y = floor(Random() * HAND_SIZE);
+call    0 returned 100%
+       94:  126:			G.hand[n][y] = salvager;
+        -:  127:			
+        -:  128:			//set discard count with random size
+       94:  129:			G.discardCount[n] = floor(Random() * (DECK_SIZE - 50));
+call    0 returned 100%
+        -:  130:			
+        -:  131:			//fill discard with random card
+     1801:  132:			for(q = 0; q < G.discardCount[n]; q++)
+branch  0 taken 95%
+branch  1 taken 5% (fallthrough)
+        -:  133:			{
+     1707:  134:				random = floor(Random() * 28);
+call    0 returned 100%
+     1707:  135:				G.discard[n][q] = random;
+        -:  136:			}
+        -:  137:			
+        -:  138:			//set number of buys with random num
+       94:  139:			G.numBuys = floor(Random() * 5);
+call    0 returned 100%
+        -:  140:			
+        -:  141:			//select a random card from hand
+       94:  142:			random = floor(Random() * G.handCount[n]);
+call    0 returned 100%
+       94:  143:			choice = G.hand[n][random];
+        -:  144:
+        -:  145:#if (NOISY_TEST == 1)
+       94:  146:            printf("\nTest Number %d\tplayer: %d\tdeckCount: %d\thandCount: %d\tdiscardCount: %d\n\n",i+1, n+1, G.deckCount[n],G.handCount[n],G.discardCount[n]);
+call    0 returned 100%
+       94:  147:			printf("\nTrashed card cost %d coins\n",getCost(handCard(choice, &G)));
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+        -:  148:#endif		
+       94:  149:			failTest = checkSalvager(n, choice, &G, y);
+call    0 returned 100%
+       94:  150:			counter+=2;
+       94:  151:			totalFailed += failTest;
+        -:  152:		}
+        -:  153:#if (NOISY_TEST == 1)		
+       40:  154:		printf("------------------ Test number %d complete with %d failed tests --------------------\n", i+1, failTest);
+call    0 returned 100%
+        -:  155:#endif			
+        -:  156:	}
+        2:  157:	printf("------------------ %d runs with total %d tests completed with %d failed tests --------------------\n", TEST_SIZE, counter, totalFailed);
+call    0 returned 100%
+        -:  158:	
+        2:  159:	return 0;
+        -:  160: }

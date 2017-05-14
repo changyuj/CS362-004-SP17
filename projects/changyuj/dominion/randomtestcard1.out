@@ -1,3 +1,553 @@
+Random Testing Adventurer.
+RANDOM TESTS.
+
+Test Number 1	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 19	Expected: 18
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 0	Expected: 3
+
+----------------- Test Failed -----------------
+------------------ Test number 1 complete with 2 failed tests --------------------
+
+Test Number 2	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 19	Expected: 18
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 0	Expected: 3
+
+----------------- Test Failed -----------------
+------------------ Test number 2 complete with 2 failed tests --------------------
+
+Test Number 3	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 19	Expected: 18
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 0	Expected: 3
+
+----------------- Test Failed -----------------
+------------------ Test number 3 complete with 2 failed tests --------------------
+
+Test Number 4	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 19	Expected: 18
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 0	Expected: 3
+
+----------------- Test Failed -----------------
+------------------ Test number 4 complete with 2 failed tests --------------------
+
+Test Number 5	player: 1	deckCount: 24	handCount: 3	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 6	Expected: 5
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 2	Expected: 3
+
+----------------- Test Failed -----------------
+
+Test Number 5	player: 2	deckCount: 84	handCount: 3	discardCount: 28
+
+Testing player 2 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 6	Expected: 5
+
+----------------- Test Failed -----------------
+Testing player 2 discard count... discard cound should increase by 1
+
+discard count: 28	Expected: 29
+
+----------------- Test Failed -----------------
+
+Test Number 5	player: 3	deckCount: 13	handCount: 7	discardCount: 49
+
+Testing player 3 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 10	Expected: 9
+
+----------------- Test Failed -----------------
+Testing player 3 discard count... discard cound should increase by 1
+
+discard count: 49	Expected: 50
+
+----------------- Test Failed -----------------
+------------------ Test number 5 complete with 2 failed tests --------------------
+
+Test Number 6	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 20	Expected: 19
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 48	Expected: 49
+
+----------------- Test Failed -----------------
+
+Test Number 6	player: 2	deckCount: 55	handCount: 12	discardCount: 40
+
+Testing player 2 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 15	Expected: 14
+
+----------------- Test Failed -----------------
+Testing player 2 discard count... discard cound should increase by 1
+
+discard count: 40	Expected: 41
+
+----------------- Test Failed -----------------
+------------------ Test number 6 complete with 2 failed tests --------------------
+
+Test Number 7	player: 1	deckCount: 24	handCount: 3	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 6	Expected: 5
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 2	Expected: 3
+
+----------------- Test Failed -----------------
+
+Test Number 7	player: 2	deckCount: 84	handCount: 3	discardCount: 28
+
+Testing player 2 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 6	Expected: 5
+
+----------------- Test Failed -----------------
+Testing player 2 discard count... discard cound should increase by 1
+
+discard count: 28	Expected: 29
+
+----------------- Test Failed -----------------
+
+Test Number 7	player: 3	deckCount: 13	handCount: 7	discardCount: 49
+
+Testing player 3 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 10	Expected: 9
+
+----------------- Test Failed -----------------
+Testing player 3 discard count... discard cound should increase by 1
+
+discard count: 49	Expected: 50
+
+----------------- Test Failed -----------------
+------------------ Test number 7 complete with 2 failed tests --------------------
+
+Test Number 8	player: 1	deckCount: 24	handCount: 3	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 6	Expected: 5
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 2	Expected: 3
+
+----------------- Test Failed -----------------
+
+Test Number 8	player: 2	deckCount: 84	handCount: 3	discardCount: 28
+
+Testing player 2 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 6	Expected: 5
+
+----------------- Test Failed -----------------
+Testing player 2 discard count... discard cound should increase by 1
+
+discard count: 28	Expected: 29
+
+----------------- Test Failed -----------------
+
+Test Number 8	player: 3	deckCount: 13	handCount: 7	discardCount: 49
+
+Testing player 3 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 10	Expected: 9
+
+----------------- Test Failed -----------------
+Testing player 3 discard count... discard cound should increase by 1
+
+discard count: 49	Expected: 50
+
+----------------- Test Failed -----------------
+------------------ Test number 8 complete with 2 failed tests --------------------
+
+Test Number 9	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 20	Expected: 19
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 48	Expected: 49
+
+----------------- Test Failed -----------------
+
+Test Number 9	player: 2	deckCount: 55	handCount: 12	discardCount: 40
+
+Testing player 2 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 15	Expected: 14
+
+----------------- Test Failed -----------------
+Testing player 2 discard count... discard cound should increase by 1
+
+discard count: 40	Expected: 41
+
+----------------- Test Failed -----------------
+------------------ Test number 9 complete with 2 failed tests --------------------
+
+Test Number 10	player: 1	deckCount: 48	handCount: 0	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 3	Expected: 2
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 2	Expected: 3
+
+----------------- Test Failed -----------------
+
+Test Number 10	player: 2	deckCount: 95	handCount: 21	discardCount: 49
+
+Testing player 2 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 24	Expected: 23
+
+----------------- Test Failed -----------------
+Testing player 2 discard count... discard cound should increase by 1
+
+discard count: 49	Expected: 50
+
+----------------- Test Failed -----------------
+
+Test Number 10	player: 3	deckCount: 39	handCount: 0	discardCount: 15
+
+Testing player 3 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 3	Expected: 2
+
+----------------- Test Failed -----------------
+Testing player 3 discard count... discard cound should increase by 1
+
+discard count: 15	Expected: 16
+
+----------------- Test Failed -----------------
+
+Test Number 10	player: 4	deckCount: 31	handCount: 14	discardCount: 47
+
+Testing player 4 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 17	Expected: 16
+
+----------------- Test Failed -----------------
+Testing player 4 discard count... discard cound should increase by 1
+
+discard count: 47	Expected: 48
+
+----------------- Test Failed -----------------
+------------------ Test number 10 complete with 2 failed tests --------------------
+
+Test Number 11	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 19	Expected: 18
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 0	Expected: 3
+
+----------------- Test Failed -----------------
+------------------ Test number 11 complete with 2 failed tests --------------------
+
+Test Number 12	player: 1	deckCount: 48	handCount: 0	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 3	Expected: 2
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 2	Expected: 3
+
+----------------- Test Failed -----------------
+
+Test Number 12	player: 2	deckCount: 95	handCount: 21	discardCount: 49
+
+Testing player 2 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 24	Expected: 23
+
+----------------- Test Failed -----------------
+Testing player 2 discard count... discard cound should increase by 1
+
+discard count: 49	Expected: 50
+
+----------------- Test Failed -----------------
+
+Test Number 12	player: 3	deckCount: 39	handCount: 0	discardCount: 15
+
+Testing player 3 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 3	Expected: 2
+
+----------------- Test Failed -----------------
+Testing player 3 discard count... discard cound should increase by 1
+
+discard count: 15	Expected: 16
+
+----------------- Test Failed -----------------
+
+Test Number 12	player: 4	deckCount: 31	handCount: 14	discardCount: 47
+
+Testing player 4 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 17	Expected: 16
+
+----------------- Test Failed -----------------
+Testing player 4 discard count... discard cound should increase by 1
+
+discard count: 47	Expected: 48
+
+----------------- Test Failed -----------------
+------------------ Test number 12 complete with 2 failed tests --------------------
+
+Test Number 13	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 20	Expected: 19
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 48	Expected: 49
+
+----------------- Test Failed -----------------
+
+Test Number 13	player: 2	deckCount: 55	handCount: 12	discardCount: 40
+
+Testing player 2 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 15	Expected: 14
+
+----------------- Test Failed -----------------
+Testing player 2 discard count... discard cound should increase by 1
+
+discard count: 40	Expected: 41
+
+----------------- Test Failed -----------------
+------------------ Test number 13 complete with 2 failed tests --------------------
+
+Test Number 14	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 20	Expected: 19
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 48	Expected: 49
+
+----------------- Test Failed -----------------
+
+Test Number 14	player: 2	deckCount: 55	handCount: 12	discardCount: 40
+
+Testing player 2 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 15	Expected: 14
+
+----------------- Test Failed -----------------
+Testing player 2 discard count... discard cound should increase by 1
+
+discard count: 40	Expected: 41
+
+----------------- Test Failed -----------------
+------------------ Test number 14 complete with 2 failed tests --------------------
+
+Test Number 15	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 19	Expected: 18
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 0	Expected: 3
+
+----------------- Test Failed -----------------
+------------------ Test number 15 complete with 2 failed tests --------------------
+
+Test Number 16	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 19	Expected: 18
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 0	Expected: 3
+
+----------------- Test Failed -----------------
+------------------ Test number 16 complete with 2 failed tests --------------------
+
+Test Number 17	player: 1	deckCount: 24	handCount: 3	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 6	Expected: 5
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 2	Expected: 3
+
+----------------- Test Failed -----------------
+
+Test Number 17	player: 2	deckCount: 84	handCount: 3	discardCount: 28
+
+Testing player 2 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 6	Expected: 5
+
+----------------- Test Failed -----------------
+Testing player 2 discard count... discard cound should increase by 1
+
+discard count: 28	Expected: 29
+
+----------------- Test Failed -----------------
+
+Test Number 17	player: 3	deckCount: 13	handCount: 7	discardCount: 49
+
+Testing player 3 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 10	Expected: 9
+
+----------------- Test Failed -----------------
+Testing player 3 discard count... discard cound should increase by 1
+
+discard count: 49	Expected: 50
+
+----------------- Test Failed -----------------
+------------------ Test number 17 complete with 2 failed tests --------------------
+
+Test Number 18	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 19	Expected: 18
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 0	Expected: 3
+
+----------------- Test Failed -----------------
+------------------ Test number 18 complete with 2 failed tests --------------------
+
+Test Number 19	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 19	Expected: 18
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 0	Expected: 3
+
+----------------- Test Failed -----------------
+------------------ Test number 19 complete with 2 failed tests --------------------
+
+Test Number 20	player: 1	deckCount: 24	handCount: 3	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 6	Expected: 5
+
+----------------- Test Failed -----------------
+Testing player 1 discard count... discard cound should increase by 1
+
+discard count: 2	Expected: 3
+
+----------------- Test Failed -----------------
+
+Test Number 20	player: 2	deckCount: 84	handCount: 3	discardCount: 28
+
+Testing player 2 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 6	Expected: 5
+
+----------------- Test Failed -----------------
+Testing player 2 discard count... discard cound should increase by 1
+
+discard count: 28	Expected: 29
+
+----------------- Test Failed -----------------
+
+Test Number 20	player: 3	deckCount: 13	handCount: 7	discardCount: 49
+
+Testing player 3 hand...should have 2 extra card in hand with smithy discarded
+
+hand count: 10	Expected: 9
+
+----------------- Test Failed -----------------
+Testing player 3 discard count... discard cound should increase by 1
+
+discard count: 49	Expected: 50
+
+----------------- Test Failed -----------------
+------------------ Test number 20 complete with 2 failed tests --------------------
+------------------ 20 runs with total 80 tests completed with 80 failed tests --------------------
+File 'dominion.c'
+Lines executed:22.91% of 563
+Branches executed:19.18% of 417
+Taken at least once:16.55% of 417
+Calls executed:10.78% of 102
+Creating 'dominion.c.gcov'
+
         -:    0:Source:dominion.c
         -:    0:Graph:dominion.gcno
         -:    0:Data:dominion.gcda
@@ -10,17 +560,17 @@
         -:    5:#include <math.h>
         -:    6:#include <stdlib.h>
         -:    7:
-function compare called 525 returned 100% blocks executed 83%
-      525:    8:int compare(const void* a, const void* b) {
-      525:    9:  if (*(int*)a > *(int*)b)
+function compare called 474 returned 100% blocks executed 83%
+      474:    8:int compare(const void* a, const void* b) {
+      474:    9:  if (*(int*)a > *(int*)b)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
     #####:   10:    return 1;
-      525:   11:  if (*(int*)a < *(int*)b)
-branch  0 taken 27% (fallthrough)
-branch  1 taken 73%
-      140:   12:    return -1;
-      385:   13:  return 0;
+      474:   11:  if (*(int*)a < *(int*)b)
+branch  0 taken 28% (fallthrough)
+branch  1 taken 72%
+      133:   12:    return -1;
+      341:   13:  return 0;
         -:   14:}
         -:   15:
 function newGame called 0 returned 0% blocks executed 0%
@@ -63,25 +613,25 @@ call    0 returned 100%
        20:   48:  if (numPlayers > MAX_PLAYERS || numPlayers < 2)
 branch  0 taken 100% (fallthrough)
 branch  1 taken 0%
-branch  2 taken 35% (fallthrough)
-branch  3 taken 65%
+branch  2 taken 45% (fallthrough)
+branch  3 taken 55%
         -:   49:    {
-        7:   50:      return -1;
+        9:   50:      return -1;
         -:   51:    }
         -:   52:
         -:   53:  //set number of players
-       13:   54:  state->numPlayers = numPlayers;
+       11:   54:  state->numPlayers = numPlayers;
         -:   55:
         -:   56:  //check selected kingdom cards are different
-      143:   57:  for (i = 0; i < 10; i++)
+      121:   57:  for (i = 0; i < 10; i++)
 branch  0 taken 91%
 branch  1 taken 9% (fallthrough)
         -:   58:    {
-     1430:   59:      for (j = 0; j < 10; j++)
+     1210:   59:      for (j = 0; j < 10; j++)
 branch  0 taken 91%
 branch  1 taken 9% (fallthrough)
         -:   60:        {
-     1300:   61:	  if (j != i && kingdomCards[j] == kingdomCards[i])
+     1100:   61:	  if (j != i && kingdomCards[j] == kingdomCards[i])
 branch  0 taken 90% (fallthrough)
 branch  1 taken 10%
 branch  2 taken 0% (fallthrough)
@@ -97,80 +647,80 @@ branch  3 taken 100%
         -:   70:  ///////////////////////////////
         -:   71:
         -:   72:  //set number of Curse cards
-       13:   73:  if (numPlayers == 2)
-branch  0 taken 54% (fallthrough)
-branch  1 taken 46%
+       11:   73:  if (numPlayers == 2)
+branch  0 taken 36% (fallthrough)
+branch  1 taken 64%
         -:   74:    {
-        7:   75:      state->supplyCount[curse] = 10;
+        4:   75:      state->supplyCount[curse] = 10;
         -:   76:    }
-        6:   77:  else if (numPlayers == 3)
-branch  0 taken 50% (fallthrough)
-branch  1 taken 50%
+        7:   77:  else if (numPlayers == 3)
+branch  0 taken 71% (fallthrough)
+branch  1 taken 29%
         -:   78:    {
-        3:   79:      state->supplyCount[curse] = 20;
+        5:   79:      state->supplyCount[curse] = 20;
         -:   80:    }
         -:   81:  else
         -:   82:    {
-        3:   83:      state->supplyCount[curse] = 30;
+        2:   83:      state->supplyCount[curse] = 30;
         -:   84:    }
         -:   85:
         -:   86:  //set number of Victory cards
-       13:   87:  if (numPlayers == 2)
-branch  0 taken 54% (fallthrough)
-branch  1 taken 46%
+       11:   87:  if (numPlayers == 2)
+branch  0 taken 36% (fallthrough)
+branch  1 taken 64%
         -:   88:    {
-        7:   89:      state->supplyCount[estate] = 8;
-        7:   90:      state->supplyCount[duchy] = 8;
-        7:   91:      state->supplyCount[province] = 8;
+        4:   89:      state->supplyCount[estate] = 8;
+        4:   90:      state->supplyCount[duchy] = 8;
+        4:   91:      state->supplyCount[province] = 8;
         -:   92:    }
         -:   93:  else
         -:   94:    {
-        6:   95:      state->supplyCount[estate] = 12;
-        6:   96:      state->supplyCount[duchy] = 12;
-        6:   97:      state->supplyCount[province] = 12;
+        7:   95:      state->supplyCount[estate] = 12;
+        7:   96:      state->supplyCount[duchy] = 12;
+        7:   97:      state->supplyCount[province] = 12;
         -:   98:    }
         -:   99:
         -:  100:  //set number of Treasure cards
-       13:  101:  state->supplyCount[copper] = 60 - (7 * numPlayers);
-       13:  102:  state->supplyCount[silver] = 40;
-       13:  103:  state->supplyCount[gold] = 30;
+       11:  101:  state->supplyCount[copper] = 60 - (7 * numPlayers);
+       11:  102:  state->supplyCount[silver] = 40;
+       11:  103:  state->supplyCount[gold] = 30;
         -:  104:
         -:  105:  //set number of Kingdom cards
-      273:  106:  for (i = adventurer; i <= treasure_map; i++)       	//loop all cards
+      231:  106:  for (i = adventurer; i <= treasure_map; i++)       	//loop all cards
 branch  0 taken 95%
 branch  1 taken 5% (fallthrough)
         -:  107:    {
-     2145:  108:      for (j = 0; j < 10; j++)           		//loop chosen cards
+     1815:  108:      for (j = 0; j < 10; j++)           		//loop chosen cards
 branch  0 taken 94%
 branch  1 taken 6% (fallthrough)
         -:  109:	{
-     2015:  110:	  if (kingdomCards[j] == i)
+     1705:  110:	  if (kingdomCards[j] == i)
 branch  0 taken 6% (fallthrough)
 branch  1 taken 94%
         -:  111:	    {
         -:  112:	      //check if card is a 'Victory' Kingdom card
-      130:  113:	      if (kingdomCards[j] == great_hall || kingdomCards[j] == gardens)
+      110:  113:	      if (kingdomCards[j] == great_hall || kingdomCards[j] == gardens)
 branch  0 taken 90% (fallthrough)
 branch  1 taken 10%
 branch  2 taken 11% (fallthrough)
 branch  3 taken 89%
         -:  114:		{
-       52:  115:		  if (numPlayers == 2){ 
-branch  0 taken 54% (fallthrough)
-branch  1 taken 46%
-       14:  116:		    state->supplyCount[i] = 8; 
+       44:  115:		  if (numPlayers == 2){ 
+branch  0 taken 36% (fallthrough)
+branch  1 taken 64%
+        8:  116:		    state->supplyCount[i] = 8; 
         -:  117:		  }
-       12:  118:		  else{ state->supplyCount[i] = 12; }
+       14:  118:		  else{ state->supplyCount[i] = 12; }
         -:  119:		}
         -:  120:	      else
         -:  121:		{
-      104:  122:		  state->supplyCount[i] = 10;
+       88:  122:		  state->supplyCount[i] = 10;
         -:  123:		}
-      130:  124:	      break;
+      110:  124:	      break;
         -:  125:	    }
         -:  126:	  else    //card is not in the set choosen for the game
         -:  127:	    {
-     1885:  128:	      state->supplyCount[i] = -1;
+     1595:  128:	      state->supplyCount[i] = -1;
         -:  129:	    }
         -:  130:	}
         -:  131:
@@ -180,33 +730,33 @@ branch  1 taken 46%
         -:  135:  //supply intilization complete
         -:  136:
         -:  137:  //set player decks
-       48:  138:  for (i = 0; i < numPlayers; i++)
-branch  0 taken 73%
-branch  1 taken 27% (fallthrough)
+       42:  138:  for (i = 0; i < numPlayers; i++)
+branch  0 taken 74%
+branch  1 taken 26% (fallthrough)
         -:  139:    {
-       35:  140:      state->deckCount[i] = 0;
-      140:  141:      for (j = 0; j < 3; j++)
+       31:  140:      state->deckCount[i] = 0;
+      124:  141:      for (j = 0; j < 3; j++)
 branch  0 taken 75%
 branch  1 taken 25% (fallthrough)
         -:  142:	{
-      105:  143:	  state->deck[i][j] = estate;
-      105:  144:	  state->deckCount[i]++;
+       93:  143:	  state->deck[i][j] = estate;
+       93:  144:	  state->deckCount[i]++;
         -:  145:	}
-      280:  146:      for (j = 3; j < 10; j++)
+      248:  146:      for (j = 3; j < 10; j++)
 branch  0 taken 88%
 branch  1 taken 13% (fallthrough)
         -:  147:	{
-      245:  148:	  state->deck[i][j] = copper;
-      245:  149:	  state->deckCount[i]++;		
+      217:  148:	  state->deck[i][j] = copper;
+      217:  149:	  state->deckCount[i]++;		
         -:  150:	}
         -:  151:    }
         -:  152:
         -:  153:  //shuffle player decks
-       48:  154:  for (i = 0; i < numPlayers; i++)
-branch  0 taken 73%
-branch  1 taken 27% (fallthrough)
+       42:  154:  for (i = 0; i < numPlayers; i++)
+branch  0 taken 74%
+branch  1 taken 26% (fallthrough)
         -:  155:    {
-       35:  156:      if ( shuffle(i, state) < 0 )
+       31:  156:      if ( shuffle(i, state) < 0 )
 call    0 returned 100%
 branch  1 taken 0% (fallthrough)
 branch  2 taken 100%
@@ -216,13 +766,13 @@ branch  2 taken 100%
         -:  160:    }
         -:  161:
         -:  162:  //draw player hands
-       48:  163:  for (i = 0; i < numPlayers; i++)
-branch  0 taken 73%
-branch  1 taken 27% (fallthrough)
+       42:  163:  for (i = 0; i < numPlayers; i++)
+branch  0 taken 74%
+branch  1 taken 26% (fallthrough)
         -:  164:    {  
         -:  165:      //initialize hand size to zero
-       35:  166:      state->handCount[i] = 0;
-       35:  167:      state->discardCount[i] = 0;
+       31:  166:      state->handCount[i] = 0;
+       31:  167:      state->discardCount[i] = 0;
         -:  168:      //draw 5 cards
         -:  169:      // for (j = 0; j < 5; j++)
         -:  170:      //	{
@@ -231,76 +781,76 @@ branch  1 taken 27% (fallthrough)
         -:  173:    }
         -:  174:  
         -:  175:  //set embargo tokens to 0 for all supply piles
-      364:  176:  for (i = 0; i <= treasure_map; i++)
+      308:  176:  for (i = 0; i <= treasure_map; i++)
 branch  0 taken 96%
 branch  1 taken 4% (fallthrough)
         -:  177:    {
-      351:  178:      state->embargoTokens[i] = 0;
+      297:  178:      state->embargoTokens[i] = 0;
         -:  179:    }
         -:  180:
         -:  181:  //initialize first player's turn
-       13:  182:  state->outpostPlayed = 0;
-       13:  183:  state->phase = 0;
-       13:  184:  state->numActions = 1;
-       13:  185:  state->numBuys = 1;
-       13:  186:  state->playedCardCount = 0;
-       13:  187:  state->whoseTurn = 0;
-       13:  188:  state->handCount[state->whoseTurn] = 0;
+       11:  182:  state->outpostPlayed = 0;
+       11:  183:  state->phase = 0;
+       11:  184:  state->numActions = 1;
+       11:  185:  state->numBuys = 1;
+       11:  186:  state->playedCardCount = 0;
+       11:  187:  state->whoseTurn = 0;
+       11:  188:  state->handCount[state->whoseTurn] = 0;
         -:  189:  //int it; move to top
         -:  190:
         -:  191:  //Moved draw cards to here, only drawing at the start of a turn
-       78:  192:  for (it = 0; it < 5; it++){
+       66:  192:  for (it = 0; it < 5; it++){
 branch  0 taken 83%
 branch  1 taken 17% (fallthrough)
-       65:  193:    drawCard(state->whoseTurn, state);
+       55:  193:    drawCard(state->whoseTurn, state);
 call    0 returned 100%
         -:  194:  }
         -:  195:
-       13:  196:  updateCoins(state->whoseTurn, state, 0);
+       11:  196:  updateCoins(state->whoseTurn, state, 0);
 call    0 returned 100%
         -:  197:
-       13:  198:  return 0;
+       11:  198:  return 0;
         -:  199:}
         -:  200:
-function shuffle called 35 returned 100% blocks executed 94%
-       35:  201:int shuffle(int player, struct gameState *state) {
+function shuffle called 40 returned 100% blocks executed 94%
+       40:  201:int shuffle(int player, struct gameState *state) {
         -:  202: 
         -:  203:
         -:  204:  int newDeck[MAX_DECK];
-       35:  205:  int newDeckPos = 0;
+       40:  205:  int newDeckPos = 0;
         -:  206:  int card;
         -:  207:  int i;
         -:  208:
-       35:  209:  if (state->deckCount[player] < 1)
+       40:  209:  if (state->deckCount[player] < 1)
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
     #####:  210:    return -1;
-       35:  211:  qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
+       40:  211:  qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
 call    0 returned 100%
         -:  212:  /* SORT CARDS IN DECK TO ENSURE DETERMINISM! */
         -:  213:
-      420:  214:  while (state->deckCount[player] > 0) {
-branch  0 taken 91%
-branch  1 taken 9% (fallthrough)
-      350:  215:    card = floor(Random() * state->deckCount[player]);
+      408:  214:  while (state->deckCount[player] > 0) {
+branch  0 taken 89%
+branch  1 taken 11% (fallthrough)
+      328:  215:    card = floor(Random() * state->deckCount[player]);
 call    0 returned 100%
-      350:  216:    newDeck[newDeckPos] = state->deck[player][card];
-      350:  217:    newDeckPos++;
-     1222:  218:    for (i = card; i < state->deckCount[player]-1; i++) {
-branch  0 taken 71%
-branch  1 taken 29% (fallthrough)
-      872:  219:      state->deck[player][i] = state->deck[player][i+1];
+      328:  216:    newDeck[newDeckPos] = state->deck[player][card];
+      328:  217:    newDeckPos++;
+     1101:  218:    for (i = card; i < state->deckCount[player]-1; i++) {
+branch  0 taken 70%
+branch  1 taken 30% (fallthrough)
+      773:  219:      state->deck[player][i] = state->deck[player][i+1];
         -:  220:    }
-      350:  221:    state->deckCount[player]--;
+      328:  221:    state->deckCount[player]--;
         -:  222:  }
-      385:  223:  for (i = 0; i < newDeckPos; i++) {
-branch  0 taken 91%
-branch  1 taken 9% (fallthrough)
-      350:  224:    state->deck[player][i] = newDeck[i];
-      350:  225:    state->deckCount[player]++;
+      368:  223:  for (i = 0; i < newDeckPos; i++) {
+branch  0 taken 89%
+branch  1 taken 11% (fallthrough)
+      328:  224:    state->deck[player][i] = newDeck[i];
+      328:  225:    state->deckCount[player]++;
         -:  226:  }
         -:  227:
-       35:  228:  return 0;
+       40:  228:  return 0;
         -:  229:}
         -:  230:
 function playCard called 0 returned 0% blocks executed 0%
@@ -414,11 +964,11 @@ function numHandCards called 0 returned 0% blocks executed 0%
 call    0 never executed
         -:  313:}
         -:  314:
-function handCard called 120 returned 100% blocks executed 100%
-      120:  315:int handCard(int handPos, struct gameState *state) {
-      120:  316:  int currentPlayer = whoseTurn(state);
-call    0 returned 100%
-      120:  317:  return state->hand[currentPlayer][handPos];
+function handCard called 0 returned 0% blocks executed 0%
+    #####:  315:int handCard(int handPos, struct gameState *state) {
+    #####:  316:  int currentPlayer = whoseTurn(state);
+call    0 never executed
+    #####:  317:  return state->hand[currentPlayer][handPos];
         -:  318:}
         -:  319:
 function supplyCount called 0 returned 0% blocks executed 0%
@@ -461,9 +1011,9 @@ branch  1 never executed
     #####:  343:  return count;
         -:  344:}
         -:  345:
-function whoseTurn called 162 returned 100% blocks executed 100%
-      162:  346:int whoseTurn(struct gameState *state) {
-      162:  347:  return state->whoseTurn;
+function whoseTurn called 40 returned 100% blocks executed 100%
+       40:  346:int whoseTurn(struct gameState *state) {
+       40:  347:  return state->whoseTurn;
         -:  348:}
         -:  349:
 function endTurn called 0 returned 0% blocks executed 0%
@@ -731,119 +1281,119 @@ branch  1 never executed
     #####:  522:  return 0;
         -:  523:}
         -:  524:
-function drawCard called 65 returned 100% blocks executed 38%
-       65:  525:int drawCard(int player, struct gameState *state)
+function drawCard called 215 returned 100% blocks executed 92%
+      215:  525:int drawCard(int player, struct gameState *state)
         -:  526:{	int count;
         -:  527:  int deckCounter;
-       65:  528:  if (state->deckCount[player] <= 0){//Deck is empty
-branch  0 taken 0% (fallthrough)
-branch  1 taken 100%
+      215:  528:  if (state->deckCount[player] <= 0){//Deck is empty
+branch  0 taken 4% (fallthrough)
+branch  1 taken 96%
         -:  529:    
         -:  530:    //Step 1 Shuffle the discard pile back into a deck
         -:  531:    int i;
         -:  532:    //Move discard to deck
-    #####:  533:    for (i = 0; i < state->discardCount[player];i++){
-branch  0 never executed
-branch  1 never executed
-    #####:  534:      state->deck[player][i] = state->discard[player][i];
-    #####:  535:      state->discard[player][i] = -1;
+       27:  533:    for (i = 0; i < state->discardCount[player];i++){
+branch  0 taken 67%
+branch  1 taken 33% (fallthrough)
+       18:  534:      state->deck[player][i] = state->discard[player][i];
+       18:  535:      state->discard[player][i] = -1;
         -:  536:    }
         -:  537:
-    #####:  538:    state->deckCount[player] = state->discardCount[player];
-    #####:  539:    state->discardCount[player] = 0;//Reset discard
+        9:  538:    state->deckCount[player] = state->discardCount[player];
+        9:  539:    state->discardCount[player] = 0;//Reset discard
         -:  540:
         -:  541:    //Shufffle the deck
-    #####:  542:    shuffle(player, state);//Shuffle the deck up and make it so that we can draw
-call    0 never executed
+        9:  542:    shuffle(player, state);//Shuffle the deck up and make it so that we can draw
+call    0 returned 100%
         -:  543:   
         -:  544:    if (DEBUG){//Debug statements
         -:  545:      printf("Deck count now: %d\n", state->deckCount[player]);
         -:  546:    }
         -:  547:    
-    #####:  548:    state->discardCount[player] = 0;
+        9:  548:    state->discardCount[player] = 0;
         -:  549:
         -:  550:    //Step 2 Draw Card
-    #####:  551:    count = state->handCount[player];//Get current player's hand count
+        9:  551:    count = state->handCount[player];//Get current player's hand count
         -:  552:    
         -:  553:    if (DEBUG){//Debug statements
         -:  554:      printf("Current hand count: %d\n", count);
         -:  555:    }
         -:  556:    
-    #####:  557:    deckCounter = state->deckCount[player];//Create a holder for the deck count
+        9:  557:    deckCounter = state->deckCount[player];//Create a holder for the deck count
         -:  558:
-    #####:  559:    if (deckCounter == 0)
-branch  0 never executed
-branch  1 never executed
+        9:  559:    if (deckCounter == 0)
+branch  0 taken 0% (fallthrough)
+branch  1 taken 100%
     #####:  560:      return -1;
         -:  561:
-    #####:  562:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to hand
-    #####:  563:    state->deckCount[player]--;
-    #####:  564:    state->handCount[player]++;//Increment hand count
+        9:  562:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to hand
+        9:  563:    state->deckCount[player]--;
+        9:  564:    state->handCount[player]++;//Increment hand count
         -:  565:  }
         -:  566:
         -:  567:  else{
-       65:  568:    int count = state->handCount[player];//Get current hand count for player
+      206:  568:    int count = state->handCount[player];//Get current hand count for player
         -:  569:    int deckCounter;
         -:  570:    if (DEBUG){//Debug statements
         -:  571:      printf("Current hand count: %d\n", count);
         -:  572:    }
         -:  573:
-       65:  574:    deckCounter = state->deckCount[player];//Create holder for the deck count
-       65:  575:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
-       65:  576:    state->deckCount[player]--;
-       65:  577:    state->handCount[player]++;//Increment hand count
+      206:  574:    deckCounter = state->deckCount[player];//Create holder for the deck count
+      206:  575:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
+      206:  576:    state->deckCount[player]--;
+      206:  577:    state->handCount[player]++;//Increment hand count
         -:  578:  }
         -:  579:
-       65:  580:  return 0;
+      215:  580:  return 0;
         -:  581:}
         -:  582:
-function getCost called 288 returned 100% blocks executed 43%
-      288:  583:int getCost(int cardNumber)
+function getCost called 0 returned 0% blocks executed 0%
+    #####:  583:int getCost(int cardNumber)
         -:  584:{
-      288:  585:  switch( cardNumber ) 
-branch  0 taken 26%
-branch  1 taken 0%
-branch  2 taken 4%
-branch  3 taken 0%
-branch  4 taken 7%
-branch  5 taken 0%
-branch  6 taken 10%
-branch  7 taken 0%
-branch  8 taken 0%
-branch  9 taken 0%
-branch 10 taken 0%
-branch 11 taken 4%
-branch 12 taken 10%
-branch 13 taken 0%
-branch 14 taken 4%
-branch 15 taken 15%
-branch 16 taken 3%
-branch 17 taken 0%
-branch 18 taken 0%
-branch 19 taken 0%
-branch 20 taken 0%
-branch 21 taken 0%
-branch 22 taken 0%
-branch 23 taken 0%
-branch 24 taken 7%
-branch 25 taken 10%
-branch 26 taken 0%
-branch 27 taken 0%
+    #####:  585:  switch( cardNumber ) 
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+branch  5 never executed
+branch  6 never executed
+branch  7 never executed
+branch  8 never executed
+branch  9 never executed
+branch 10 never executed
+branch 11 never executed
+branch 12 never executed
+branch 13 never executed
+branch 14 never executed
+branch 15 never executed
+branch 16 never executed
+branch 17 never executed
+branch 18 never executed
+branch 19 never executed
+branch 20 never executed
+branch 21 never executed
+branch 22 never executed
+branch 23 never executed
+branch 24 never executed
+branch 25 never executed
+branch 26 never executed
+branch 27 never executed
         -:  586:    {
         -:  587:    case curse:
-       75:  588:      return 0;
+    #####:  588:      return 0;
         -:  589:    case estate:
     #####:  590:      return 2;
         -:  591:    case duchy:
-       12:  592:      return 5;
+    #####:  592:      return 5;
         -:  593:    case province:
     #####:  594:      return 8;
         -:  595:    case copper:
-       21:  596:      return 0;
+    #####:  596:      return 0;
         -:  597:    case silver:
     #####:  598:      return 3;
         -:  599:    case gold:
-       28:  600:      return 6;
+    #####:  600:      return 6;
         -:  601:    case adventurer:
     #####:  602:      return 6;
         -:  603:    case council_room:
@@ -853,17 +1403,17 @@ branch 27 taken 0%
         -:  607:    case gardens:
     #####:  608:      return 4;
         -:  609:    case mine:
-       12:  610:      return 5;
+    #####:  610:      return 5;
         -:  611:    case remodel:
-       28:  612:      return 4;
+    #####:  612:      return 4;
         -:  613:    case smithy:
     #####:  614:      return 4;
         -:  615:    case village:
-       12:  616:      return 3;
+    #####:  616:      return 3;
         -:  617:    case baron:
-       42:  618:      return 4;
+    #####:  618:      return 4;
         -:  619:    case great_hall:
-        9:  620:      return 3;
+    #####:  620:      return 3;
         -:  621:    case minion:
     #####:  622:      return 5;
         -:  623:    case steward:
@@ -879,9 +1429,9 @@ branch 27 taken 0%
         -:  633:    case outpost:
     #####:  634:      return 5;
         -:  635:    case salvager:
-       21:  636:      return 4;
+    #####:  636:      return 4;
         -:  637:    case sea_hag:
-       28:  638:      return 4;
+    #####:  638:      return 4;
         -:  639:    case treasure_map:
     #####:  640:      return 4;
         -:  641:    }
@@ -1864,104 +2414,104 @@ call    0 never executed
         -: 1353:}
         -: 1354:
         -: 1355://introduced bug
-function playSmithy called 0 returned 0% blocks executed 0%
-    #####: 1356:int playSmithy(struct gameState *state, int handPos)
+function playSmithy called 40 returned 100% blocks executed 100%
+       40: 1356:int playSmithy(struct gameState *state, int handPos)
         -: 1357:{
         -: 1358:	int i, currentPlayer;
-    #####: 1359:	currentPlayer = whoseTurn(state);
-call    0 never executed
+       40: 1359:	currentPlayer = whoseTurn(state);
+call    0 returned 100%
         -: 1360:	
         -: 1361:	//+4 Cards
-    #####: 1362:    for (i = 0; i < 4; i++)
-branch  0 never executed
-branch  1 never executed
+      200: 1362:    for (i = 0; i < 4; i++)
+branch  0 taken 80%
+branch  1 taken 20% (fallthrough)
         -: 1363:	{
-    #####: 1364:	  drawCard(currentPlayer, state);
-call    0 never executed
+      160: 1364:	  drawCard(currentPlayer, state);
+call    0 returned 100%
         -: 1365:	}
         -: 1366:			
         -: 1367:    //discard card from hand
-    #####: 1368:    discardCard(handPos, currentPlayer, state, 0);
-call    0 never executed
-    #####: 1369:    return 0;
+       40: 1368:    discardCard(handPos, currentPlayer, state, 0);
+call    0 returned 100%
+       40: 1369:    return 0;
         -: 1370:
         -: 1371:}
         -: 1372:
         -: 1373://introduced bug
-function playSalvager called 42 returned 100% blocks executed 100%
-       42: 1374:int playSalvager(struct gameState *state, int choice1, int handPos)
+function playSalvager called 0 returned 0% blocks executed 0%
+    #####: 1374:int playSalvager(struct gameState *state, int choice1, int handPos)
         -: 1375:{
-       42: 1376:	int currentPlayer = whoseTurn(state);
-call    0 returned 100%
+    #####: 1376:	int currentPlayer = whoseTurn(state);
+call    0 never executed
         -: 1377:	
         -: 1378:	//+1 buy
-       42: 1379:    state->numBuys++;
+    #####: 1379:    state->numBuys++;
         -: 1380:			
-       42: 1381:    if (choice1)
-branch  0 taken 93% (fallthrough)
-branch  1 taken 7%
+    #####: 1381:    if (choice1)
+branch  0 never executed
+branch  1 never executed
         -: 1382:	{
         -: 1383:	  //gain coins equal to trashed card x2
-       39: 1384:	  state->coins = state->coins + getCost( handCard(choice1, state) ) + getCost( handCard(choice1, state) );
-call    0 returned 100%
-call    1 returned 100%
-call    2 returned 100%
-call    3 returned 100%
+    #####: 1384:	  state->coins = state->coins + getCost( handCard(choice1, state) ) + getCost( handCard(choice1, state) );
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
         -: 1385:	  //trash card
-       39: 1386:	  discardCard(choice1, currentPlayer, state, 1);	
-call    0 returned 100%
+    #####: 1386:	  discardCard(choice1, currentPlayer, state, 1);	
+call    0 never executed
         -: 1387:	}
         -: 1388:			
         -: 1389:    //discard card
-       42: 1390:    discardCard(handPos, currentPlayer, state, 0);
-call    0 returned 100%
-       42: 1391:    return 0;
+    #####: 1390:    discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####: 1391:    return 0;
         -: 1392:	
         -: 1393:}
         -: 1394:
-function discardCard called 81 returned 100% blocks executed 89%
-       81: 1395:int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
+function discardCard called 40 returned 100% blocks executed 78%
+       40: 1395:int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
         -: 1396:{
         -: 1397:	
         -: 1398:  //if card is not trashed, added to Played pile 
-       81: 1399:  if (trashFlag < 1)
-branch  0 taken 52% (fallthrough)
-branch  1 taken 48%
+       40: 1399:  if (trashFlag < 1)
+branch  0 taken 100% (fallthrough)
+branch  1 taken 0%
         -: 1400:    {
         -: 1401:      //add card to played pile
-       42: 1402:      state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
-       42: 1403:      state->playedCardCount++;
+       40: 1402:      state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
+       40: 1403:      state->playedCardCount++;
         -: 1404:    }
         -: 1405:	
         -: 1406:  //set played card to -1
-       81: 1407:  state->hand[currentPlayer][handPos] = -1;
+       40: 1407:  state->hand[currentPlayer][handPos] = -1;
         -: 1408:	
         -: 1409:  //remove card from player's hand
-       81: 1410:  if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
+       40: 1410:  if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
 branch  0 taken 0% (fallthrough)
 branch  1 taken 100%
         -: 1411:    {
         -: 1412:      //reduce number of cards in hand
     #####: 1413:      state->handCount[currentPlayer]--;
         -: 1414:    }
-       81: 1415:  else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
-branch  0 taken 9% (fallthrough)
-branch  1 taken 91%
+       40: 1415:  else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
+branch  0 taken 0% (fallthrough)
+branch  1 taken 100%
         -: 1416:    {
         -: 1417:      //reduce number of cards in hand
-        7: 1418:      state->handCount[currentPlayer]--;
+    #####: 1418:      state->handCount[currentPlayer]--;
         -: 1419:    }
         -: 1420:  else 	
         -: 1421:    {
         -: 1422:      //replace discarded card with last card in hand
-       74: 1423:      state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
+       40: 1423:      state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
         -: 1424:      //set last card to -1
-       74: 1425:      state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
+       40: 1425:      state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
         -: 1426:      //reduce number of cards in hand
-       74: 1427:      state->handCount[currentPlayer]--;
+       40: 1427:      state->handCount[currentPlayer]--;
         -: 1428:    }
         -: 1429:	
-       81: 1430:  return 0;
+       40: 1430:  return 0;
         -: 1431:}
         -: 1432:
 function gainCard called 0 returned 0% blocks executed 0%
@@ -2009,43 +2559,43 @@ branch  1 never executed
     #####: 1467:  return 0;
         -: 1468:}
         -: 1469:
-function updateCoins called 97 returned 100% blocks executed 100%
-       97: 1470:int updateCoins(int player, struct gameState *state, int bonus)
+function updateCoins called 11 returned 100% blocks executed 82%
+       11: 1470:int updateCoins(int player, struct gameState *state, int bonus)
         -: 1471:{
         -: 1472:  int i;
         -: 1473:	
         -: 1474:  //reset coin count
-       97: 1475:  state->coins = 0;
+       11: 1475:  state->coins = 0;
         -: 1476:
         -: 1477:  //add coins for each Treasure card in player's hand
-      993: 1478:  for (i = 0; i < state->handCount[player]; i++)
-branch  0 taken 90%
-branch  1 taken 10% (fallthrough)
+       66: 1478:  for (i = 0; i < state->handCount[player]; i++)
+branch  0 taken 83%
+branch  1 taken 17% (fallthrough)
         -: 1479:    {
-      896: 1480:      if (state->hand[player][i] == copper)
-branch  0 taken 6% (fallthrough)
-branch  1 taken 94%
+       55: 1480:      if (state->hand[player][i] == copper)
+branch  0 taken 80% (fallthrough)
+branch  1 taken 20%
         -: 1481:	{
-       58: 1482:	  state->coins += 1;
+       44: 1482:	  state->coins += 1;
         -: 1483:	}
-      838: 1484:      else if (state->hand[player][i] == silver)
-branch  0 taken 2% (fallthrough)
-branch  1 taken 98%
+       11: 1484:      else if (state->hand[player][i] == silver)
+branch  0 taken 0% (fallthrough)
+branch  1 taken 100%
         -: 1485:	{
-       20: 1486:	  state->coins += 2;
+    #####: 1486:	  state->coins += 2;
         -: 1487:	}
-      818: 1488:      else if (state->hand[player][i] == gold)
-branch  0 taken 2% (fallthrough)
-branch  1 taken 98%
+       11: 1488:      else if (state->hand[player][i] == gold)
+branch  0 taken 0% (fallthrough)
+branch  1 taken 100%
         -: 1489:	{
-       14: 1490:	  state->coins += 3;
+    #####: 1490:	  state->coins += 3;
         -: 1491:	}	
         -: 1492:    }	
         -: 1493:
         -: 1494:  //add bonus
-       97: 1495:  state->coins += bonus;
+       11: 1495:  state->coins += bonus;
         -: 1496:
-       97: 1497:  return 0;
+       11: 1497:  return 0;
         -: 1498:}
         -: 1499:
         -: 1500:

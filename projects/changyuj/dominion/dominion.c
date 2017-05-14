@@ -1248,7 +1248,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 }
 
 //refactored codes for 4 out of 5 cards
-
+//introduced bug
 int playAdventurer(struct gameState *state) 
 {
 	int z = 0;
@@ -1274,11 +1274,12 @@ int playAdventurer(struct gameState *state)
     }
     while(z - 1 >= 1){
 		state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
-		z = z + 2;
+		z = z - 2;
     }
     return 0;
 }
 
+//introduced bug
 int playCouncil_room(struct gameState *state, int handPos)
 {
 	int i, currentPlayer;
@@ -1309,6 +1310,7 @@ int playCouncil_room(struct gameState *state, int handPos)
 	
 }
 
+//refractored, no bug
 int playMine(struct gameState *state, int choice1, int choice2, int handPos)
 {
 	int i, j, currentPlayer;
@@ -1350,6 +1352,7 @@ int playMine(struct gameState *state, int choice1, int choice2, int handPos)
 	
 }
 
+//introduced bug
 int playSmithy(struct gameState *state, int handPos)
 {
 	int i, currentPlayer;
@@ -1367,6 +1370,7 @@ int playSmithy(struct gameState *state, int handPos)
 
 }
 
+//introduced bug
 int playSalvager(struct gameState *state, int choice1, int handPos)
 {
 	int currentPlayer = whoseTurn(state);

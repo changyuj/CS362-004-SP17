@@ -1,3 +1,1097 @@
+Random Testing Adventurer.
+RANDOM TESTS.
+
+Test Number 1	player: 1	deckCount: 48	handCount: 0	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 4, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 1	player: 2	deckCount: 95	handCount: 21	discardCount: 49
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 3, expected = 3
+
+----------------- Test Passed -----------------
+
+Test Number 1	player: 3	deckCount: 39	handCount: 0	discardCount: 15
+
+Testing player 3 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 3 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 hand increased two treasure cards
+hand treasure card count = 2, expected = 2
+
+----------------- Test Passed -----------------
+
+Test Number 1	player: 4	deckCount: 31	handCount: 14	discardCount: 47
+
+Testing player 4 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 4 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 hand increased two treasure cards
+hand treasure card count = 5, expected = 5
+
+----------------- Test Passed -----------------
+------------------ Test number 1 complete with 0 failed tests --------------------
+
+Test Number 2	player: 1	deckCount: 48	handCount: 0	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 4, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 2	player: 2	deckCount: 95	handCount: 21	discardCount: 49
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 3, expected = 3
+
+----------------- Test Passed -----------------
+
+Test Number 2	player: 3	deckCount: 39	handCount: 0	discardCount: 15
+
+Testing player 3 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 3 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 hand increased two treasure cards
+hand treasure card count = 2, expected = 2
+
+----------------- Test Passed -----------------
+
+Test Number 2	player: 4	deckCount: 31	handCount: 14	discardCount: 47
+
+Testing player 4 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 4 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 hand increased two treasure cards
+hand treasure card count = 5, expected = 5
+
+----------------- Test Passed -----------------
+------------------ Test number 2 complete with 0 failed tests --------------------
+
+Test Number 3	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 2, expected = 2
+
+----------------- Test Passed -----------------
+
+Test Number 3	player: 2	deckCount: 91	handCount: 11	discardCount: 27
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 3, expected = 3
+
+----------------- Test Passed -----------------
+------------------ Test number 3 complete with 0 failed tests --------------------
+
+Test Number 4	player: 1	deckCount: 24	handCount: 3	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Failed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 0, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 4	player: 2	deckCount: 21	handCount: 19	discardCount: 27
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 1, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 4	player: 3	deckCount: 91	handCount: 17	discardCount: 4
+
+Testing player 3 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 3 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 hand increased two treasure cards
+hand treasure card count = 4, expected = 4
+
+----------------- Test Passed -----------------
+------------------ Test number 4 complete with 0 failed tests --------------------
+
+Test Number 5	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 2, expected = 2
+
+----------------- Test Passed -----------------
+
+Test Number 5	player: 2	deckCount: 91	handCount: 11	discardCount: 27
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 3, expected = 3
+
+----------------- Test Passed -----------------
+------------------ Test number 5 complete with 0 failed tests --------------------
+
+Test Number 6	player: 1	deckCount: 48	handCount: 0	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 4, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 6	player: 2	deckCount: 95	handCount: 21	discardCount: 49
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 3, expected = 3
+
+----------------- Test Passed -----------------
+
+Test Number 6	player: 3	deckCount: 39	handCount: 0	discardCount: 15
+
+Testing player 3 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 3 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 hand increased two treasure cards
+hand treasure card count = 2, expected = 2
+
+----------------- Test Passed -----------------
+
+Test Number 6	player: 4	deckCount: 31	handCount: 14	discardCount: 47
+
+Testing player 4 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 4 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 hand increased two treasure cards
+hand treasure card count = 5, expected = 5
+
+----------------- Test Passed -----------------
+------------------ Test number 6 complete with 0 failed tests --------------------
+
+Test Number 7	player: 1	deckCount: 48	handCount: 0	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 4, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 7	player: 2	deckCount: 95	handCount: 21	discardCount: 49
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 3, expected = 3
+
+----------------- Test Passed -----------------
+
+Test Number 7	player: 3	deckCount: 39	handCount: 0	discardCount: 15
+
+Testing player 3 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 3 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 hand increased two treasure cards
+hand treasure card count = 2, expected = 2
+
+----------------- Test Passed -----------------
+
+Test Number 7	player: 4	deckCount: 31	handCount: 14	discardCount: 47
+
+Testing player 4 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 4 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 hand increased two treasure cards
+hand treasure card count = 5, expected = 5
+
+----------------- Test Passed -----------------
+------------------ Test number 7 complete with 0 failed tests --------------------
+
+Test Number 8	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Failed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 0, expected = 4
+
+----------------- Test Failed-----------------
+------------------ Test number 8 complete with 2 failed tests --------------------
+
+Test Number 9	player: 1	deckCount: 24	handCount: 3	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Failed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 0, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 9	player: 2	deckCount: 21	handCount: 19	discardCount: 27
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 1, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 9	player: 3	deckCount: 91	handCount: 17	discardCount: 4
+
+Testing player 3 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 3 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 hand increased two treasure cards
+hand treasure card count = 4, expected = 4
+
+----------------- Test Passed -----------------
+------------------ Test number 9 complete with 0 failed tests --------------------
+
+Test Number 10	player: 1	deckCount: 24	handCount: 3	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Failed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 0, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 10	player: 2	deckCount: 21	handCount: 19	discardCount: 27
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 1, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 10	player: 3	deckCount: 91	handCount: 17	discardCount: 4
+
+Testing player 3 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 3 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 hand increased two treasure cards
+hand treasure card count = 4, expected = 4
+
+----------------- Test Passed -----------------
+------------------ Test number 10 complete with 0 failed tests --------------------
+
+Test Number 11	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 2, expected = 2
+
+----------------- Test Passed -----------------
+
+Test Number 11	player: 2	deckCount: 91	handCount: 11	discardCount: 27
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 3, expected = 3
+
+----------------- Test Passed -----------------
+------------------ Test number 11 complete with 0 failed tests --------------------
+
+Test Number 12	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 2, expected = 2
+
+----------------- Test Passed -----------------
+
+Test Number 12	player: 2	deckCount: 91	handCount: 11	discardCount: 27
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 3, expected = 3
+
+----------------- Test Passed -----------------
+------------------ Test number 12 complete with 0 failed tests --------------------
+
+Test Number 13	player: 1	deckCount: 48	handCount: 0	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 4, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 13	player: 2	deckCount: 95	handCount: 21	discardCount: 49
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 3, expected = 3
+
+----------------- Test Passed -----------------
+
+Test Number 13	player: 3	deckCount: 39	handCount: 0	discardCount: 15
+
+Testing player 3 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 3 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 hand increased two treasure cards
+hand treasure card count = 2, expected = 2
+
+----------------- Test Passed -----------------
+
+Test Number 13	player: 4	deckCount: 31	handCount: 14	discardCount: 47
+
+Testing player 4 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 4 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 hand increased two treasure cards
+hand treasure card count = 5, expected = 5
+
+----------------- Test Passed -----------------
+------------------ Test number 13 complete with 0 failed tests --------------------
+
+Test Number 14	player: 1	deckCount: 48	handCount: 0	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 4, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 14	player: 2	deckCount: 95	handCount: 21	discardCount: 49
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 3, expected = 3
+
+----------------- Test Passed -----------------
+
+Test Number 14	player: 3	deckCount: 39	handCount: 0	discardCount: 15
+
+Testing player 3 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 3 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 hand increased two treasure cards
+hand treasure card count = 2, expected = 2
+
+----------------- Test Passed -----------------
+
+Test Number 14	player: 4	deckCount: 31	handCount: 14	discardCount: 47
+
+Testing player 4 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 4 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 hand increased two treasure cards
+hand treasure card count = 5, expected = 5
+
+----------------- Test Passed -----------------
+------------------ Test number 14 complete with 0 failed tests --------------------
+
+Test Number 15	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Failed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 0, expected = 4
+
+----------------- Test Failed-----------------
+------------------ Test number 15 complete with 2 failed tests --------------------
+
+Test Number 16	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Failed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 0, expected = 4
+
+----------------- Test Failed-----------------
+------------------ Test number 16 complete with 2 failed tests --------------------
+
+Test Number 17	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 2, expected = 2
+
+----------------- Test Passed -----------------
+
+Test Number 17	player: 2	deckCount: 91	handCount: 11	discardCount: 27
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 3, expected = 3
+
+----------------- Test Passed -----------------
+------------------ Test number 17 complete with 0 failed tests --------------------
+
+Test Number 18	player: 1	deckCount: 24	handCount: 3	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Failed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 0, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 18	player: 2	deckCount: 21	handCount: 19	discardCount: 27
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 1, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 18	player: 3	deckCount: 91	handCount: 17	discardCount: 4
+
+Testing player 3 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 3 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 hand increased two treasure cards
+hand treasure card count = 4, expected = 4
+
+----------------- Test Passed -----------------
+------------------ Test number 18 complete with 0 failed tests --------------------
+
+Test Number 19	player: 1	deckCount: 48	handCount: 0	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 4, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 19	player: 2	deckCount: 95	handCount: 21	discardCount: 49
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 3, expected = 3
+
+----------------- Test Passed -----------------
+
+Test Number 19	player: 3	deckCount: 39	handCount: 0	discardCount: 15
+
+Testing player 3 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 3 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 hand increased two treasure cards
+hand treasure card count = 2, expected = 2
+
+----------------- Test Passed -----------------
+
+Test Number 19	player: 4	deckCount: 31	handCount: 14	discardCount: 47
+
+Testing player 4 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 4 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 4 hand increased two treasure cards
+hand treasure card count = 5, expected = 5
+
+----------------- Test Passed -----------------
+------------------ Test number 19 complete with 0 failed tests --------------------
+
+Test Number 20	player: 1	deckCount: 24	handCount: 3	discardCount: 2
+
+Testing player 1 hand...should have 2 extra card in hand
+
+----------------- Test Failed -----------------
+Testing player 1 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 1 hand increased two treasure cards
+hand treasure card count = 0, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 20	player: 2	deckCount: 21	handCount: 19	discardCount: 27
+
+Testing player 2 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 2 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 2 hand increased two treasure cards
+hand treasure card count = 1, expected = 2
+
+----------------- Test Failed-----------------
+
+Test Number 20	player: 3	deckCount: 91	handCount: 17	discardCount: 4
+
+Testing player 3 hand...should have 2 extra card in hand
+
+----------------- Test Passed -----------------
+Testing player 3 total copper card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total silver card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 total gold card does not change
+
+----------------- Test Passed -----------------
+Testing player 3 hand increased two treasure cards
+hand treasure card count = 4, expected = 4
+
+----------------- Test Passed -----------------
+------------------ Test number 20 complete with 0 failed tests --------------------
+------------------ 20 runs with total 280 tests completed with 28 failed tests --------------------
+File 'dominion.c'
+Lines executed:25.22% of 563
+Branches executed:23.02% of 417
+Taken at least once:21.82% of 417
+Calls executed:10.78% of 102
+Creating 'dominion.c.gcov'
+
         -:    0:Source:dominion.c
         -:    0:Graph:dominion.gcno
         -:    0:Data:dominion.gcda
@@ -10,17 +1104,17 @@
         -:    5:#include <math.h>
         -:    6:#include <stdlib.h>
         -:    7:
-function compare called 525 returned 100% blocks executed 83%
-      525:    8:int compare(const void* a, const void* b) {
-      525:    9:  if (*(int*)a > *(int*)b)
-branch  0 taken 0% (fallthrough)
-branch  1 taken 100%
-    #####:   10:    return 1;
-      525:   11:  if (*(int*)a < *(int*)b)
-branch  0 taken 27% (fallthrough)
-branch  1 taken 73%
-      140:   12:    return -1;
-      385:   13:  return 0;
+function compare called 2338 returned 100% blocks executed 100%
+     2338:    8:int compare(const void* a, const void* b) {
+     2338:    9:  if (*(int*)a > *(int*)b)
+branch  0 taken 34% (fallthrough)
+branch  1 taken 66%
+      790:   10:    return 1;
+     1548:   11:  if (*(int*)a < *(int*)b)
+branch  0 taken 50% (fallthrough)
+branch  1 taken 50%
+      770:   12:    return -1;
+      778:   13:  return 0;
         -:   14:}
         -:   15:
 function newGame called 0 returned 0% blocks executed 0%
@@ -63,25 +1157,25 @@ call    0 returned 100%
        20:   48:  if (numPlayers > MAX_PLAYERS || numPlayers < 2)
 branch  0 taken 100% (fallthrough)
 branch  1 taken 0%
-branch  2 taken 35% (fallthrough)
-branch  3 taken 65%
+branch  2 taken 15% (fallthrough)
+branch  3 taken 85%
         -:   49:    {
-        7:   50:      return -1;
+        3:   50:      return -1;
         -:   51:    }
         -:   52:
         -:   53:  //set number of players
-       13:   54:  state->numPlayers = numPlayers;
+       17:   54:  state->numPlayers = numPlayers;
         -:   55:
         -:   56:  //check selected kingdom cards are different
-      143:   57:  for (i = 0; i < 10; i++)
+      187:   57:  for (i = 0; i < 10; i++)
 branch  0 taken 91%
 branch  1 taken 9% (fallthrough)
         -:   58:    {
-     1430:   59:      for (j = 0; j < 10; j++)
+     1870:   59:      for (j = 0; j < 10; j++)
 branch  0 taken 91%
 branch  1 taken 9% (fallthrough)
         -:   60:        {
-     1300:   61:	  if (j != i && kingdomCards[j] == kingdomCards[i])
+     1700:   61:	  if (j != i && kingdomCards[j] == kingdomCards[i])
 branch  0 taken 90% (fallthrough)
 branch  1 taken 10%
 branch  2 taken 0% (fallthrough)
@@ -97,80 +1191,80 @@ branch  3 taken 100%
         -:   70:  ///////////////////////////////
         -:   71:
         -:   72:  //set number of Curse cards
-       13:   73:  if (numPlayers == 2)
-branch  0 taken 54% (fallthrough)
-branch  1 taken 46%
+       17:   73:  if (numPlayers == 2)
+branch  0 taken 29% (fallthrough)
+branch  1 taken 71%
         -:   74:    {
-        7:   75:      state->supplyCount[curse] = 10;
+        5:   75:      state->supplyCount[curse] = 10;
         -:   76:    }
-        6:   77:  else if (numPlayers == 3)
-branch  0 taken 50% (fallthrough)
-branch  1 taken 50%
+       12:   77:  else if (numPlayers == 3)
+branch  0 taken 42% (fallthrough)
+branch  1 taken 58%
         -:   78:    {
-        3:   79:      state->supplyCount[curse] = 20;
+        5:   79:      state->supplyCount[curse] = 20;
         -:   80:    }
         -:   81:  else
         -:   82:    {
-        3:   83:      state->supplyCount[curse] = 30;
+        7:   83:      state->supplyCount[curse] = 30;
         -:   84:    }
         -:   85:
         -:   86:  //set number of Victory cards
-       13:   87:  if (numPlayers == 2)
-branch  0 taken 54% (fallthrough)
-branch  1 taken 46%
+       17:   87:  if (numPlayers == 2)
+branch  0 taken 29% (fallthrough)
+branch  1 taken 71%
         -:   88:    {
-        7:   89:      state->supplyCount[estate] = 8;
-        7:   90:      state->supplyCount[duchy] = 8;
-        7:   91:      state->supplyCount[province] = 8;
+        5:   89:      state->supplyCount[estate] = 8;
+        5:   90:      state->supplyCount[duchy] = 8;
+        5:   91:      state->supplyCount[province] = 8;
         -:   92:    }
         -:   93:  else
         -:   94:    {
-        6:   95:      state->supplyCount[estate] = 12;
-        6:   96:      state->supplyCount[duchy] = 12;
-        6:   97:      state->supplyCount[province] = 12;
+       12:   95:      state->supplyCount[estate] = 12;
+       12:   96:      state->supplyCount[duchy] = 12;
+       12:   97:      state->supplyCount[province] = 12;
         -:   98:    }
         -:   99:
         -:  100:  //set number of Treasure cards
-       13:  101:  state->supplyCount[copper] = 60 - (7 * numPlayers);
-       13:  102:  state->supplyCount[silver] = 40;
-       13:  103:  state->supplyCount[gold] = 30;
+       17:  101:  state->supplyCount[copper] = 60 - (7 * numPlayers);
+       17:  102:  state->supplyCount[silver] = 40;
+       17:  103:  state->supplyCount[gold] = 30;
         -:  104:
         -:  105:  //set number of Kingdom cards
-      273:  106:  for (i = adventurer; i <= treasure_map; i++)       	//loop all cards
+      357:  106:  for (i = adventurer; i <= treasure_map; i++)       	//loop all cards
 branch  0 taken 95%
 branch  1 taken 5% (fallthrough)
         -:  107:    {
-     2145:  108:      for (j = 0; j < 10; j++)           		//loop chosen cards
+     2805:  108:      for (j = 0; j < 10; j++)           		//loop chosen cards
 branch  0 taken 94%
 branch  1 taken 6% (fallthrough)
         -:  109:	{
-     2015:  110:	  if (kingdomCards[j] == i)
+     2635:  110:	  if (kingdomCards[j] == i)
 branch  0 taken 6% (fallthrough)
 branch  1 taken 94%
         -:  111:	    {
         -:  112:	      //check if card is a 'Victory' Kingdom card
-      130:  113:	      if (kingdomCards[j] == great_hall || kingdomCards[j] == gardens)
+      170:  113:	      if (kingdomCards[j] == great_hall || kingdomCards[j] == gardens)
 branch  0 taken 90% (fallthrough)
 branch  1 taken 10%
 branch  2 taken 11% (fallthrough)
 branch  3 taken 89%
         -:  114:		{
-       52:  115:		  if (numPlayers == 2){ 
-branch  0 taken 54% (fallthrough)
-branch  1 taken 46%
-       14:  116:		    state->supplyCount[i] = 8; 
+       68:  115:		  if (numPlayers == 2){ 
+branch  0 taken 29% (fallthrough)
+branch  1 taken 71%
+       10:  116:		    state->supplyCount[i] = 8; 
         -:  117:		  }
-       12:  118:		  else{ state->supplyCount[i] = 12; }
+       24:  118:		  else{ state->supplyCount[i] = 12; }
         -:  119:		}
         -:  120:	      else
         -:  121:		{
-      104:  122:		  state->supplyCount[i] = 10;
+      136:  122:		  state->supplyCount[i] = 10;
         -:  123:		}
-      130:  124:	      break;
+      170:  124:	      break;
         -:  125:	    }
         -:  126:	  else    //card is not in the set choosen for the game
         -:  127:	    {
-     1885:  128:	      state->supplyCount[i] = -1;
+     2465:  128:	      state->supplyCount[i] = -1;
         -:  129:	    }
         -:  130:	}
         -:  131:
@@ -180,33 +1274,33 @@ branch  1 taken 46%
         -:  135:  //supply intilization complete
         -:  136:
         -:  137:  //set player decks
-       48:  138:  for (i = 0; i < numPlayers; i++)
-branch  0 taken 73%
-branch  1 taken 27% (fallthrough)
+       70:  138:  for (i = 0; i < numPlayers; i++)
+branch  0 taken 76%
+branch  1 taken 24% (fallthrough)
         -:  139:    {
-       35:  140:      state->deckCount[i] = 0;
-      140:  141:      for (j = 0; j < 3; j++)
+       53:  140:      state->deckCount[i] = 0;
+      212:  141:      for (j = 0; j < 3; j++)
 branch  0 taken 75%
 branch  1 taken 25% (fallthrough)
         -:  142:	{
-      105:  143:	  state->deck[i][j] = estate;
-      105:  144:	  state->deckCount[i]++;
+      159:  143:	  state->deck[i][j] = estate;
+      159:  144:	  state->deckCount[i]++;
         -:  145:	}
-      280:  146:      for (j = 3; j < 10; j++)
+      424:  146:      for (j = 3; j < 10; j++)
 branch  0 taken 88%
 branch  1 taken 13% (fallthrough)
         -:  147:	{
-      245:  148:	  state->deck[i][j] = copper;
-      245:  149:	  state->deckCount[i]++;		
+      371:  148:	  state->deck[i][j] = copper;
+      371:  149:	  state->deckCount[i]++;		
         -:  150:	}
         -:  151:    }
         -:  152:
         -:  153:  //shuffle player decks
-       48:  154:  for (i = 0; i < numPlayers; i++)
-branch  0 taken 73%
-branch  1 taken 27% (fallthrough)
+       70:  154:  for (i = 0; i < numPlayers; i++)
+branch  0 taken 76%
+branch  1 taken 24% (fallthrough)
         -:  155:    {
-       35:  156:      if ( shuffle(i, state) < 0 )
+       53:  156:      if ( shuffle(i, state) < 0 )
 call    0 returned 100%
 branch  1 taken 0% (fallthrough)
 branch  2 taken 100%
@@ -216,13 +1310,13 @@ branch  2 taken 100%
         -:  160:    }
         -:  161:
         -:  162:  //draw player hands
-       48:  163:  for (i = 0; i < numPlayers; i++)
-branch  0 taken 73%
-branch  1 taken 27% (fallthrough)
+       70:  163:  for (i = 0; i < numPlayers; i++)
+branch  0 taken 76%
+branch  1 taken 24% (fallthrough)
         -:  164:    {  
         -:  165:      //initialize hand size to zero
-       35:  166:      state->handCount[i] = 0;
-       35:  167:      state->discardCount[i] = 0;
+       53:  166:      state->handCount[i] = 0;
+       53:  167:      state->discardCount[i] = 0;
         -:  168:      //draw 5 cards
         -:  169:      // for (j = 0; j < 5; j++)
         -:  170:      //	{
@@ -231,76 +1325,76 @@ branch  1 taken 27% (fallthrough)
         -:  173:    }
         -:  174:  
         -:  175:  //set embargo tokens to 0 for all supply piles
-      364:  176:  for (i = 0; i <= treasure_map; i++)
+      476:  176:  for (i = 0; i <= treasure_map; i++)
 branch  0 taken 96%
 branch  1 taken 4% (fallthrough)
         -:  177:    {
-      351:  178:      state->embargoTokens[i] = 0;
+      459:  178:      state->embargoTokens[i] = 0;
         -:  179:    }
         -:  180:
         -:  181:  //initialize first player's turn
-       13:  182:  state->outpostPlayed = 0;
-       13:  183:  state->phase = 0;
-       13:  184:  state->numActions = 1;
-       13:  185:  state->numBuys = 1;
-       13:  186:  state->playedCardCount = 0;
-       13:  187:  state->whoseTurn = 0;
-       13:  188:  state->handCount[state->whoseTurn] = 0;
+       17:  182:  state->outpostPlayed = 0;
+       17:  183:  state->phase = 0;
+       17:  184:  state->numActions = 1;
+       17:  185:  state->numBuys = 1;
+       17:  186:  state->playedCardCount = 0;
+       17:  187:  state->whoseTurn = 0;
+       17:  188:  state->handCount[state->whoseTurn] = 0;
         -:  189:  //int it; move to top
         -:  190:
         -:  191:  //Moved draw cards to here, only drawing at the start of a turn
-       78:  192:  for (it = 0; it < 5; it++){
+      102:  192:  for (it = 0; it < 5; it++){
 branch  0 taken 83%
 branch  1 taken 17% (fallthrough)
-       65:  193:    drawCard(state->whoseTurn, state);
+       85:  193:    drawCard(state->whoseTurn, state);
 call    0 returned 100%
         -:  194:  }
         -:  195:
-       13:  196:  updateCoins(state->whoseTurn, state, 0);
+       17:  196:  updateCoins(state->whoseTurn, state, 0);
 call    0 returned 100%
         -:  197:
-       13:  198:  return 0;
+       17:  198:  return 0;
         -:  199:}
         -:  200:
-function shuffle called 35 returned 100% blocks executed 94%
-       35:  201:int shuffle(int player, struct gameState *state) {
+function shuffle called 167 returned 100% blocks executed 100%
+      167:  201:int shuffle(int player, struct gameState *state) {
         -:  202: 
         -:  203:
         -:  204:  int newDeck[MAX_DECK];
-       35:  205:  int newDeckPos = 0;
+      167:  205:  int newDeckPos = 0;
         -:  206:  int card;
         -:  207:  int i;
         -:  208:
-       35:  209:  if (state->deckCount[player] < 1)
-branch  0 taken 0% (fallthrough)
-branch  1 taken 100%
-    #####:  210:    return -1;
-       35:  211:  qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
+      167:  209:  if (state->deckCount[player] < 1)
+branch  0 taken 57% (fallthrough)
+branch  1 taken 43%
+       96:  210:    return -1;
+       71:  211:  qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
 call    0 returned 100%
         -:  212:  /* SORT CARDS IN DECK TO ENSURE DETERMINISM! */
         -:  213:
-      420:  214:  while (state->deckCount[player] > 0) {
-branch  0 taken 91%
-branch  1 taken 9% (fallthrough)
-      350:  215:    card = floor(Random() * state->deckCount[player]);
+     1063:  214:  while (state->deckCount[player] > 0) {
+branch  0 taken 93%
+branch  1 taken 7% (fallthrough)
+      921:  215:    card = floor(Random() * state->deckCount[player]);
 call    0 returned 100%
-      350:  216:    newDeck[newDeckPos] = state->deck[player][card];
-      350:  217:    newDeckPos++;
-     1222:  218:    for (i = card; i < state->deckCount[player]-1; i++) {
-branch  0 taken 71%
-branch  1 taken 29% (fallthrough)
-      872:  219:      state->deck[player][i] = state->deck[player][i+1];
+      921:  216:    newDeck[newDeckPos] = state->deck[player][card];
+      921:  217:    newDeckPos++;
+     6334:  218:    for (i = card; i < state->deckCount[player]-1; i++) {
+branch  0 taken 85%
+branch  1 taken 15% (fallthrough)
+     5413:  219:      state->deck[player][i] = state->deck[player][i+1];
         -:  220:    }
-      350:  221:    state->deckCount[player]--;
+      921:  221:    state->deckCount[player]--;
         -:  222:  }
-      385:  223:  for (i = 0; i < newDeckPos; i++) {
-branch  0 taken 91%
-branch  1 taken 9% (fallthrough)
-      350:  224:    state->deck[player][i] = newDeck[i];
-      350:  225:    state->deckCount[player]++;
+      992:  223:  for (i = 0; i < newDeckPos; i++) {
+branch  0 taken 93%
+branch  1 taken 7% (fallthrough)
+      921:  224:    state->deck[player][i] = newDeck[i];
+      921:  225:    state->deckCount[player]++;
         -:  226:  }
         -:  227:
-       35:  228:  return 0;
+       71:  228:  return 0;
         -:  229:}
         -:  230:
 function playCard called 0 returned 0% blocks executed 0%
@@ -414,11 +1508,11 @@ function numHandCards called 0 returned 0% blocks executed 0%
 call    0 never executed
         -:  313:}
         -:  314:
-function handCard called 120 returned 100% blocks executed 100%
-      120:  315:int handCard(int handPos, struct gameState *state) {
-      120:  316:  int currentPlayer = whoseTurn(state);
-call    0 returned 100%
-      120:  317:  return state->hand[currentPlayer][handPos];
+function handCard called 0 returned 0% blocks executed 0%
+    #####:  315:int handCard(int handPos, struct gameState *state) {
+    #####:  316:  int currentPlayer = whoseTurn(state);
+call    0 never executed
+    #####:  317:  return state->hand[currentPlayer][handPos];
         -:  318:}
         -:  319:
 function supplyCount called 0 returned 0% blocks executed 0%
@@ -426,44 +1520,44 @@ function supplyCount called 0 returned 0% blocks executed 0%
     #####:  321:  return state->supplyCount[card];
         -:  322:}
         -:  323:
-function fullDeckCount called 0 returned 0% blocks executed 0%
-    #####:  324:int fullDeckCount(int player, int card, struct gameState *state) {
+function fullDeckCount called 336 returned 100% blocks executed 100%
+      336:  324:int fullDeckCount(int player, int card, struct gameState *state) {
         -:  325:  int i;
-    #####:  326:  int count = 0;
+      336:  326:  int count = 0;
         -:  327:
-    #####:  328:  for (i = 0; i < state->deckCount[player]; i++)
-branch  0 never executed
-branch  1 never executed
+    14811:  328:  for (i = 0; i < state->deckCount[player]; i++)
+branch  0 taken 98%
+branch  1 taken 2% (fallthrough)
         -:  329:    {
-    #####:  330:      if (state->deck[player][i] == card) count++;
-branch  0 never executed
-branch  1 never executed
+    14475:  330:      if (state->deck[player][i] == card) count++;
+branch  0 taken 2% (fallthrough)
+branch  1 taken 98%
         -:  331:    }
         -:  332:
-    #####:  333:  for (i = 0; i < state->handCount[player]; i++)
-branch  0 never executed
-branch  1 never executed
+     4338:  333:  for (i = 0; i < state->handCount[player]; i++)
+branch  0 taken 92%
+branch  1 taken 8% (fallthrough)
         -:  334:    {
-    #####:  335:      if (state->hand[player][i] == card) count++;
-branch  0 never executed
-branch  1 never executed
+     4002:  335:      if (state->hand[player][i] == card) count++;
+branch  0 taken 5% (fallthrough)
+branch  1 taken 95%
         -:  336:    }
         -:  337:
-    #####:  338:  for (i = 0; i < state->discardCount[player]; i++)
-branch  0 never executed
-branch  1 never executed
+     8451:  338:  for (i = 0; i < state->discardCount[player]; i++)
+branch  0 taken 96%
+branch  1 taken 4% (fallthrough)
         -:  339:    {
-    #####:  340:      if (state->discard[player][i] == card) count++;
-branch  0 never executed
-branch  1 never executed
+     8115:  340:      if (state->discard[player][i] == card) count++;
+branch  0 taken 3% (fallthrough)
+branch  1 taken 97%
         -:  341:    }
         -:  342:
-    #####:  343:  return count;
+      336:  343:  return count;
         -:  344:}
         -:  345:
-function whoseTurn called 162 returned 100% blocks executed 100%
-      162:  346:int whoseTurn(struct gameState *state) {
-      162:  347:  return state->whoseTurn;
+function whoseTurn called 56 returned 100% blocks executed 100%
+       56:  346:int whoseTurn(struct gameState *state) {
+       56:  347:  return state->whoseTurn;
         -:  348:}
         -:  349:
 function endTurn called 0 returned 0% blocks executed 0%
@@ -731,119 +1825,119 @@ branch  1 never executed
     #####:  522:  return 0;
         -:  523:}
         -:  524:
-function drawCard called 65 returned 100% blocks executed 38%
-       65:  525:int drawCard(int player, struct gameState *state)
+function drawCard called 1054 returned 100% blocks executed 100%
+     1054:  525:int drawCard(int player, struct gameState *state)
         -:  526:{	int count;
         -:  527:  int deckCounter;
-       65:  528:  if (state->deckCount[player] <= 0){//Deck is empty
-branch  0 taken 0% (fallthrough)
-branch  1 taken 100%
+     1054:  528:  if (state->deckCount[player] <= 0){//Deck is empty
+branch  0 taken 5% (fallthrough)
+branch  1 taken 95%
         -:  529:    
         -:  530:    //Step 1 Shuffle the discard pile back into a deck
         -:  531:    int i;
         -:  532:    //Move discard to deck
-    #####:  533:    for (i = 0; i < state->discardCount[player];i++){
-branch  0 never executed
-branch  1 never executed
-    #####:  534:      state->deck[player][i] = state->discard[player][i];
-    #####:  535:      state->discard[player][i] = -1;
+      448:  533:    for (i = 0; i < state->discardCount[player];i++){
+branch  0 taken 87%
+branch  1 taken 13% (fallthrough)
+      391:  534:      state->deck[player][i] = state->discard[player][i];
+      391:  535:      state->discard[player][i] = -1;
         -:  536:    }
         -:  537:
-    #####:  538:    state->deckCount[player] = state->discardCount[player];
-    #####:  539:    state->discardCount[player] = 0;//Reset discard
+       57:  538:    state->deckCount[player] = state->discardCount[player];
+       57:  539:    state->discardCount[player] = 0;//Reset discard
         -:  540:
         -:  541:    //Shufffle the deck
-    #####:  542:    shuffle(player, state);//Shuffle the deck up and make it so that we can draw
-call    0 never executed
+       57:  542:    shuffle(player, state);//Shuffle the deck up and make it so that we can draw
+call    0 returned 100%
         -:  543:   
         -:  544:    if (DEBUG){//Debug statements
         -:  545:      printf("Deck count now: %d\n", state->deckCount[player]);
         -:  546:    }
         -:  547:    
-    #####:  548:    state->discardCount[player] = 0;
+       57:  548:    state->discardCount[player] = 0;
         -:  549:
         -:  550:    //Step 2 Draw Card
-    #####:  551:    count = state->handCount[player];//Get current player's hand count
+       57:  551:    count = state->handCount[player];//Get current player's hand count
         -:  552:    
         -:  553:    if (DEBUG){//Debug statements
         -:  554:      printf("Current hand count: %d\n", count);
         -:  555:    }
         -:  556:    
-    #####:  557:    deckCounter = state->deckCount[player];//Create a holder for the deck count
+       57:  557:    deckCounter = state->deckCount[player];//Create a holder for the deck count
         -:  558:
-    #####:  559:    if (deckCounter == 0)
-branch  0 never executed
-branch  1 never executed
-    #####:  560:      return -1;
+       57:  559:    if (deckCounter == 0)
+branch  0 taken 68% (fallthrough)
+branch  1 taken 32%
+       39:  560:      return -1;
         -:  561:
-    #####:  562:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to hand
-    #####:  563:    state->deckCount[player]--;
-    #####:  564:    state->handCount[player]++;//Increment hand count
+       18:  562:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to hand
+       18:  563:    state->deckCount[player]--;
+       18:  564:    state->handCount[player]++;//Increment hand count
         -:  565:  }
         -:  566:
         -:  567:  else{
-       65:  568:    int count = state->handCount[player];//Get current hand count for player
+      997:  568:    int count = state->handCount[player];//Get current hand count for player
         -:  569:    int deckCounter;
         -:  570:    if (DEBUG){//Debug statements
         -:  571:      printf("Current hand count: %d\n", count);
         -:  572:    }
         -:  573:
-       65:  574:    deckCounter = state->deckCount[player];//Create holder for the deck count
-       65:  575:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
-       65:  576:    state->deckCount[player]--;
-       65:  577:    state->handCount[player]++;//Increment hand count
+      997:  574:    deckCounter = state->deckCount[player];//Create holder for the deck count
+      997:  575:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
+      997:  576:    state->deckCount[player]--;
+      997:  577:    state->handCount[player]++;//Increment hand count
         -:  578:  }
         -:  579:
-       65:  580:  return 0;
+     1015:  580:  return 0;
         -:  581:}
         -:  582:
-function getCost called 288 returned 100% blocks executed 43%
-      288:  583:int getCost(int cardNumber)
+function getCost called 0 returned 0% blocks executed 0%
+    #####:  583:int getCost(int cardNumber)
         -:  584:{
-      288:  585:  switch( cardNumber ) 
-branch  0 taken 26%
-branch  1 taken 0%
-branch  2 taken 4%
-branch  3 taken 0%
-branch  4 taken 7%
-branch  5 taken 0%
-branch  6 taken 10%
-branch  7 taken 0%
-branch  8 taken 0%
-branch  9 taken 0%
-branch 10 taken 0%
-branch 11 taken 4%
-branch 12 taken 10%
-branch 13 taken 0%
-branch 14 taken 4%
-branch 15 taken 15%
-branch 16 taken 3%
-branch 17 taken 0%
-branch 18 taken 0%
-branch 19 taken 0%
-branch 20 taken 0%
-branch 21 taken 0%
-branch 22 taken 0%
-branch 23 taken 0%
-branch 24 taken 7%
-branch 25 taken 10%
-branch 26 taken 0%
-branch 27 taken 0%
+    #####:  585:  switch( cardNumber ) 
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+branch  5 never executed
+branch  6 never executed
+branch  7 never executed
+branch  8 never executed
+branch  9 never executed
+branch 10 never executed
+branch 11 never executed
+branch 12 never executed
+branch 13 never executed
+branch 14 never executed
+branch 15 never executed
+branch 16 never executed
+branch 17 never executed
+branch 18 never executed
+branch 19 never executed
+branch 20 never executed
+branch 21 never executed
+branch 22 never executed
+branch 23 never executed
+branch 24 never executed
+branch 25 never executed
+branch 26 never executed
+branch 27 never executed
         -:  586:    {
         -:  587:    case curse:
-       75:  588:      return 0;
+    #####:  588:      return 0;
         -:  589:    case estate:
     #####:  590:      return 2;
         -:  591:    case duchy:
-       12:  592:      return 5;
+    #####:  592:      return 5;
         -:  593:    case province:
     #####:  594:      return 8;
         -:  595:    case copper:
-       21:  596:      return 0;
+    #####:  596:      return 0;
         -:  597:    case silver:
     #####:  598:      return 3;
         -:  599:    case gold:
-       28:  600:      return 6;
+    #####:  600:      return 6;
         -:  601:    case adventurer:
     #####:  602:      return 6;
         -:  603:    case council_room:
@@ -853,17 +1947,17 @@ branch 27 taken 0%
         -:  607:    case gardens:
     #####:  608:      return 4;
         -:  609:    case mine:
-       12:  610:      return 5;
+    #####:  610:      return 5;
         -:  611:    case remodel:
-       28:  612:      return 4;
+    #####:  612:      return 4;
         -:  613:    case smithy:
     #####:  614:      return 4;
         -:  615:    case village:
-       12:  616:      return 3;
+    #####:  616:      return 3;
         -:  617:    case baron:
-       42:  618:      return 4;
+    #####:  618:      return 4;
         -:  619:    case great_hall:
-        9:  620:      return 3;
+    #####:  620:      return 3;
         -:  621:    case minion:
     #####:  622:      return 5;
         -:  623:    case steward:
@@ -879,9 +1973,9 @@ branch 27 taken 0%
         -:  633:    case outpost:
     #####:  634:      return 5;
         -:  635:    case salvager:
-       21:  636:      return 4;
+    #####:  636:      return 4;
         -:  637:    case sea_hag:
-       28:  638:      return 4;
+    #####:  638:      return 4;
         -:  639:    case treasure_map:
     #####:  640:      return 4;
         -:  641:    }
@@ -1712,50 +2806,50 @@ call    0 never executed
         -: 1249:
         -: 1250://refactored codes for 4 out of 5 cards
         -: 1251://introduced bug
-function playAdventurer called 0 returned 0% blocks executed 0%
-    #####: 1252:int playAdventurer(struct gameState *state) 
+function playAdventurer called 56 returned 100% blocks executed 100%
+       56: 1252:int playAdventurer(struct gameState *state) 
         -: 1253:{
-    #####: 1254:	int z = 0;
-    #####: 1255:	int currentPlayer = whoseTurn(state);
-call    0 never executed
+       56: 1254:	int z = 0;
+       56: 1255:	int currentPlayer = whoseTurn(state);
+call    0 returned 100%
         -: 1256:	int cardDrawn;
         -: 1257:	int temphand[MAX_HAND];
-    #####: 1258:	int drawntreasure=0;
+       56: 1258:	int drawntreasure=0;
         -: 1259:	
-    #####: 1260:	while(drawntreasure < 2)
-branch  0 never executed
-branch  1 never executed
+     1081: 1260:	while(drawntreasure < 2)
+branch  0 taken 95%
+branch  1 taken 5% (fallthrough)
         -: 1261:	{
-    #####: 1262:		if (state->deckCount[currentPlayer] <1){//if the deck is empty we need to shuffle discard and add to deck
-branch  0 never executed
-branch  1 never executed
-    #####: 1263:		  shuffle(currentPlayer, state);
-call    0 never executed
+      969: 1262:		if (state->deckCount[currentPlayer] <1){//if the deck is empty we need to shuffle discard and add to deck
+branch  0 taken 6% (fallthrough)
+branch  1 taken 94%
+       57: 1263:		  shuffle(currentPlayer, state);
+call    0 returned 100%
         -: 1264:		}
-    #####: 1265:		drawCard(currentPlayer, state);
-call    0 never executed
-    #####: 1266:		cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
-    #####: 1267:		if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
-branch  0 never executed
-branch  1 never executed
-branch  2 never executed
-branch  3 never executed
-branch  4 never executed
-branch  5 never executed
-    #####: 1268:		  drawntreasure++;
+      969: 1265:		drawCard(currentPlayer, state);
+call    0 returned 100%
+      969: 1266:		cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+      969: 1267:		if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
+branch  0 taken 94% (fallthrough)
+branch  1 taken 6%
+branch  2 taken 96% (fallthrough)
+branch  3 taken 4%
+branch  4 taken 3% (fallthrough)
+branch  5 taken 97%
+      112: 1268:		  drawntreasure++;
         -: 1269:		else{
-    #####: 1270:		  temphand[z]=cardDrawn;
-    #####: 1271:		  state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
-    #####: 1272:		  z++;
+      857: 1270:		  temphand[z]=cardDrawn;
+      857: 1271:		  state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
+      857: 1272:		  z++;
         -: 1273:		}
         -: 1274:    }
-    #####: 1275:    while(z - 1 >= 1){
-branch  0 never executed
-branch  1 never executed
-    #####: 1276:		state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
-    #####: 1277:		z = z - 2;
+      534: 1275:    while(z - 1 >= 1){
+branch  0 taken 88%
+branch  1 taken 12% (fallthrough)
+      422: 1276:		state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
+      422: 1277:		z = z - 2;
         -: 1278:    }
-    #####: 1279:    return 0;
+       56: 1279:    return 0;
         -: 1280:}
         -: 1281:
         -: 1282://introduced bug
@@ -1888,80 +2982,80 @@ call    0 never executed
         -: 1371:}
         -: 1372:
         -: 1373://introduced bug
-function playSalvager called 42 returned 100% blocks executed 100%
-       42: 1374:int playSalvager(struct gameState *state, int choice1, int handPos)
+function playSalvager called 0 returned 0% blocks executed 0%
+    #####: 1374:int playSalvager(struct gameState *state, int choice1, int handPos)
         -: 1375:{
-       42: 1376:	int currentPlayer = whoseTurn(state);
-call    0 returned 100%
+    #####: 1376:	int currentPlayer = whoseTurn(state);
+call    0 never executed
         -: 1377:	
         -: 1378:	//+1 buy
-       42: 1379:    state->numBuys++;
+    #####: 1379:    state->numBuys++;
         -: 1380:			
-       42: 1381:    if (choice1)
-branch  0 taken 93% (fallthrough)
-branch  1 taken 7%
+    #####: 1381:    if (choice1)
+branch  0 never executed
+branch  1 never executed
         -: 1382:	{
         -: 1383:	  //gain coins equal to trashed card x2
-       39: 1384:	  state->coins = state->coins + getCost( handCard(choice1, state) ) + getCost( handCard(choice1, state) );
-call    0 returned 100%
-call    1 returned 100%
-call    2 returned 100%
-call    3 returned 100%
+    #####: 1384:	  state->coins = state->coins + getCost( handCard(choice1, state) ) + getCost( handCard(choice1, state) );
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
         -: 1385:	  //trash card
-       39: 1386:	  discardCard(choice1, currentPlayer, state, 1);	
-call    0 returned 100%
+    #####: 1386:	  discardCard(choice1, currentPlayer, state, 1);	
+call    0 never executed
         -: 1387:	}
         -: 1388:			
         -: 1389:    //discard card
-       42: 1390:    discardCard(handPos, currentPlayer, state, 0);
-call    0 returned 100%
-       42: 1391:    return 0;
+    #####: 1390:    discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####: 1391:    return 0;
         -: 1392:	
         -: 1393:}
         -: 1394:
-function discardCard called 81 returned 100% blocks executed 89%
-       81: 1395:int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
+function discardCard called 0 returned 0% blocks executed 0%
+    #####: 1395:int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
         -: 1396:{
         -: 1397:	
         -: 1398:  //if card is not trashed, added to Played pile 
-       81: 1399:  if (trashFlag < 1)
-branch  0 taken 52% (fallthrough)
-branch  1 taken 48%
+    #####: 1399:  if (trashFlag < 1)
+branch  0 never executed
+branch  1 never executed
         -: 1400:    {
         -: 1401:      //add card to played pile
-       42: 1402:      state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
-       42: 1403:      state->playedCardCount++;
+    #####: 1402:      state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
+    #####: 1403:      state->playedCardCount++;
         -: 1404:    }
         -: 1405:	
         -: 1406:  //set played card to -1
-       81: 1407:  state->hand[currentPlayer][handPos] = -1;
+    #####: 1407:  state->hand[currentPlayer][handPos] = -1;
         -: 1408:	
         -: 1409:  //remove card from player's hand
-       81: 1410:  if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
-branch  0 taken 0% (fallthrough)
-branch  1 taken 100%
+    #####: 1410:  if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
+branch  0 never executed
+branch  1 never executed
         -: 1411:    {
         -: 1412:      //reduce number of cards in hand
     #####: 1413:      state->handCount[currentPlayer]--;
         -: 1414:    }
-       81: 1415:  else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
-branch  0 taken 9% (fallthrough)
-branch  1 taken 91%
+    #####: 1415:  else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
+branch  0 never executed
+branch  1 never executed
         -: 1416:    {
         -: 1417:      //reduce number of cards in hand
-        7: 1418:      state->handCount[currentPlayer]--;
+    #####: 1418:      state->handCount[currentPlayer]--;
         -: 1419:    }
         -: 1420:  else 	
         -: 1421:    {
         -: 1422:      //replace discarded card with last card in hand
-       74: 1423:      state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
+    #####: 1423:      state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
         -: 1424:      //set last card to -1
-       74: 1425:      state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
+    #####: 1425:      state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
         -: 1426:      //reduce number of cards in hand
-       74: 1427:      state->handCount[currentPlayer]--;
+    #####: 1427:      state->handCount[currentPlayer]--;
         -: 1428:    }
         -: 1429:	
-       81: 1430:  return 0;
+    #####: 1430:  return 0;
         -: 1431:}
         -: 1432:
 function gainCard called 0 returned 0% blocks executed 0%
@@ -2009,43 +3103,43 @@ branch  1 never executed
     #####: 1467:  return 0;
         -: 1468:}
         -: 1469:
-function updateCoins called 97 returned 100% blocks executed 100%
-       97: 1470:int updateCoins(int player, struct gameState *state, int bonus)
+function updateCoins called 17 returned 100% blocks executed 82%
+       17: 1470:int updateCoins(int player, struct gameState *state, int bonus)
         -: 1471:{
         -: 1472:  int i;
         -: 1473:	
         -: 1474:  //reset coin count
-       97: 1475:  state->coins = 0;
+       17: 1475:  state->coins = 0;
         -: 1476:
         -: 1477:  //add coins for each Treasure card in player's hand
-      993: 1478:  for (i = 0; i < state->handCount[player]; i++)
-branch  0 taken 90%
-branch  1 taken 10% (fallthrough)
+      102: 1478:  for (i = 0; i < state->handCount[player]; i++)
+branch  0 taken 83%
+branch  1 taken 17% (fallthrough)
         -: 1479:    {
-      896: 1480:      if (state->hand[player][i] == copper)
-branch  0 taken 6% (fallthrough)
-branch  1 taken 94%
+       85: 1480:      if (state->hand[player][i] == copper)
+branch  0 taken 80% (fallthrough)
+branch  1 taken 20%
         -: 1481:	{
-       58: 1482:	  state->coins += 1;
+       68: 1482:	  state->coins += 1;
         -: 1483:	}
-      838: 1484:      else if (state->hand[player][i] == silver)
-branch  0 taken 2% (fallthrough)
-branch  1 taken 98%
+       17: 1484:      else if (state->hand[player][i] == silver)
+branch  0 taken 0% (fallthrough)
+branch  1 taken 100%
         -: 1485:	{
-       20: 1486:	  state->coins += 2;
+    #####: 1486:	  state->coins += 2;
         -: 1487:	}
-      818: 1488:      else if (state->hand[player][i] == gold)
-branch  0 taken 2% (fallthrough)
-branch  1 taken 98%
+       17: 1488:      else if (state->hand[player][i] == gold)
+branch  0 taken 0% (fallthrough)
+branch  1 taken 100%
         -: 1489:	{
-       14: 1490:	  state->coins += 3;
+    #####: 1490:	  state->coins += 3;
         -: 1491:	}	
         -: 1492:    }	
         -: 1493:
         -: 1494:  //add bonus
-       97: 1495:  state->coins += bonus;
+       17: 1495:  state->coins += bonus;
         -: 1496:
-       97: 1497:  return 0;
+       17: 1497:  return 0;
         -: 1498:}
         -: 1499:
         -: 1500:

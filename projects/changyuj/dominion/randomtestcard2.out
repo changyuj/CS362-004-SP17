@@ -1,3 +1,705 @@
+Random Testing Adventurer.
+RANDOM TESTS.
+
+Test Number 1	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+
+Trashed card cost 4 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 6 
+Testing player 1 coins... coins should increase by 6 
+
+Coins: 5	Expected: 11
+
+----------------- Test Failed -----------------
+------------------ Test number 1 complete with 1 failed tests --------------------
+
+Test Number 2	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+
+Trashed card cost 4 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 6 
+Testing player 1 coins... coins should increase by 6 
+
+Coins: 5	Expected: 11
+
+----------------- Test Failed -----------------
+------------------ Test number 2 complete with 1 failed tests --------------------
+
+Test Number 3	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+
+Trashed card cost 4 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 6 
+Testing player 1 coins... coins should increase by 6 
+
+Coins: 5	Expected: 11
+
+----------------- Test Failed -----------------
+------------------ Test number 3 complete with 1 failed tests --------------------
+
+Test Number 4	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+
+Trashed card cost 4 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 6 
+Testing player 1 coins... coins should increase by 6 
+
+Coins: 5	Expected: 11
+
+----------------- Test Failed -----------------
+------------------ Test number 4 complete with 1 failed tests --------------------
+
+Test Number 5	player: 1	deckCount: 24	handCount: 3	discardCount: 2
+
+
+Trashed card cost 0 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 5	Expected: 5
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 1 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+
+Test Number 5	player: 2	deckCount: 21	handCount: 19	discardCount: 27
+
+
+Trashed card cost 4 coins
+Testing player 2 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 5 
+Testing player 2 coins... coins should increase by 5 
+
+Coins: 0	Expected: 5
+
+----------------- Test Failed -----------------
+
+Test Number 5	player: 3	deckCount: 63	handCount: 8	discardCount: 35
+
+
+Trashed card cost 0 coins
+Testing player 3 buys...should have 1 extra buy
+
+Total buy: 4	Expected: 4
+
+----------------- Test Passed -----------------
+Trashed card cost: 3 
+Testing player 3 coins... coins should increase by 3 
+
+Coins: 0	Expected: 3
+
+----------------- Test Failed -----------------
+------------------ Test number 5 complete with 1 failed tests --------------------
+
+Test Number 6	player: 1	deckCount: 48	handCount: 0	discardCount: 2
+
+
+Trashed card cost 0 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: -1	Expected: 5
+
+----------------- Test Failed -----------------
+Trashed card cost: 0 
+Testing player 1 coins... coins should increase by 0 
+
+Coins: 0	Expected: 0
+
+----------------- Test Passed -----------------
+
+Test Number 6	player: 2	deckCount: 36	handCount: 14	discardCount: 8
+
+
+Trashed card cost 3 coins
+Testing player 2 buys...should have 1 extra buy
+
+Total buy: 4	Expected: 4
+
+----------------- Test Passed -----------------
+Trashed card cost: 5 
+Testing player 2 coins... coins should increase by 5 
+
+Coins: 0	Expected: 5
+
+----------------- Test Failed -----------------
+
+Test Number 6	player: 3	deckCount: 44	handCount: 26	discardCount: 17
+
+
+Trashed card cost 4 coins
+Testing player 3 buys...should have 1 extra buy
+
+Total buy: 4	Expected: 4
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 3 coins... coins should increase by 4 
+
+Coins: 3	Expected: 7
+
+----------------- Test Failed -----------------
+
+Test Number 6	player: 4	deckCount: 14	handCount: 0	discardCount: 20
+
+
+Trashed card cost 0 coins
+Testing player 4 buys...should have 1 extra buy
+
+Total buy: 2	Expected: 2
+
+----------------- Test Passed -----------------
+Trashed card cost: 0 
+Testing player 4 coins... coins should increase by 0 
+
+Coins: 0	Expected: 0
+
+----------------- Test Passed -----------------
+------------------ Test number 6 complete with 0 failed tests --------------------
+
+Test Number 7	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+
+Trashed card cost 0 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 1 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+
+Test Number 7	player: 2	deckCount: 27	handCount: 1	discardCount: 20
+
+
+Trashed card cost 0 coins
+Testing player 2 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 2 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+------------------ Test number 7 complete with 1 failed tests --------------------
+
+Test Number 8	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+
+Trashed card cost 4 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 6 
+Testing player 1 coins... coins should increase by 6 
+
+Coins: 5	Expected: 11
+
+----------------- Test Failed -----------------
+------------------ Test number 8 complete with 1 failed tests --------------------
+
+Test Number 9	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+
+Trashed card cost 0 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 1 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+
+Test Number 9	player: 2	deckCount: 27	handCount: 1	discardCount: 20
+
+
+Trashed card cost 0 coins
+Testing player 2 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 2 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+------------------ Test number 9 complete with 1 failed tests --------------------
+
+Test Number 10	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+
+Trashed card cost 0 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 1 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+
+Test Number 10	player: 2	deckCount: 27	handCount: 1	discardCount: 20
+
+
+Trashed card cost 0 coins
+Testing player 2 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 2 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+------------------ Test number 10 complete with 1 failed tests --------------------
+
+Test Number 11	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+
+Trashed card cost 0 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 1 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+
+Test Number 11	player: 2	deckCount: 27	handCount: 1	discardCount: 20
+
+
+Trashed card cost 0 coins
+Testing player 2 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 2 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+------------------ Test number 11 complete with 1 failed tests --------------------
+
+Test Number 12	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+
+Trashed card cost 4 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 6 
+Testing player 1 coins... coins should increase by 6 
+
+Coins: 5	Expected: 11
+
+----------------- Test Failed -----------------
+------------------ Test number 12 complete with 1 failed tests --------------------
+
+Test Number 13	player: 1	deckCount: 24	handCount: 3	discardCount: 2
+
+
+Trashed card cost 0 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 5	Expected: 5
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 1 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+
+Test Number 13	player: 2	deckCount: 21	handCount: 19	discardCount: 27
+
+
+Trashed card cost 4 coins
+Testing player 2 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 5 
+Testing player 2 coins... coins should increase by 5 
+
+Coins: 0	Expected: 5
+
+----------------- Test Failed -----------------
+
+Test Number 13	player: 3	deckCount: 63	handCount: 8	discardCount: 35
+
+
+Trashed card cost 0 coins
+Testing player 3 buys...should have 1 extra buy
+
+Total buy: 4	Expected: 4
+
+----------------- Test Passed -----------------
+Trashed card cost: 3 
+Testing player 3 coins... coins should increase by 3 
+
+Coins: 0	Expected: 3
+
+----------------- Test Failed -----------------
+------------------ Test number 13 complete with 1 failed tests --------------------
+
+Test Number 14	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+
+Trashed card cost 0 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 1 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+
+Test Number 14	player: 2	deckCount: 27	handCount: 1	discardCount: 20
+
+
+Trashed card cost 0 coins
+Testing player 2 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 2 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+------------------ Test number 14 complete with 1 failed tests --------------------
+
+Test Number 15	player: 1	deckCount: 48	handCount: 0	discardCount: 2
+
+
+Trashed card cost 0 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: -1	Expected: 5
+
+----------------- Test Failed -----------------
+Trashed card cost: 0 
+Testing player 1 coins... coins should increase by 0 
+
+Coins: 0	Expected: 0
+
+----------------- Test Passed -----------------
+
+Test Number 15	player: 2	deckCount: 36	handCount: 14	discardCount: 8
+
+
+Trashed card cost 3 coins
+Testing player 2 buys...should have 1 extra buy
+
+Total buy: 4	Expected: 4
+
+----------------- Test Passed -----------------
+Trashed card cost: 5 
+Testing player 2 coins... coins should increase by 5 
+
+Coins: 0	Expected: 5
+
+----------------- Test Failed -----------------
+
+Test Number 15	player: 3	deckCount: 44	handCount: 26	discardCount: 17
+
+
+Trashed card cost 4 coins
+Testing player 3 buys...should have 1 extra buy
+
+Total buy: 4	Expected: 4
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 3 coins... coins should increase by 4 
+
+Coins: 3	Expected: 7
+
+----------------- Test Failed -----------------
+
+Test Number 15	player: 4	deckCount: 14	handCount: 0	discardCount: 20
+
+
+Trashed card cost 0 coins
+Testing player 4 buys...should have 1 extra buy
+
+Total buy: 2	Expected: 2
+
+----------------- Test Passed -----------------
+Trashed card cost: 0 
+Testing player 4 coins... coins should increase by 0 
+
+Coins: 0	Expected: 0
+
+----------------- Test Passed -----------------
+------------------ Test number 15 complete with 0 failed tests --------------------
+
+Test Number 16	player: 1	deckCount: 48	handCount: 0	discardCount: 2
+
+
+Trashed card cost 0 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: -1	Expected: 5
+
+----------------- Test Failed -----------------
+Trashed card cost: 0 
+Testing player 1 coins... coins should increase by 0 
+
+Coins: 0	Expected: 0
+
+----------------- Test Passed -----------------
+
+Test Number 16	player: 2	deckCount: 36	handCount: 14	discardCount: 8
+
+
+Trashed card cost 3 coins
+Testing player 2 buys...should have 1 extra buy
+
+Total buy: 4	Expected: 4
+
+----------------- Test Passed -----------------
+Trashed card cost: 5 
+Testing player 2 coins... coins should increase by 5 
+
+Coins: 0	Expected: 5
+
+----------------- Test Failed -----------------
+
+Test Number 16	player: 3	deckCount: 44	handCount: 26	discardCount: 17
+
+
+Trashed card cost 4 coins
+Testing player 3 buys...should have 1 extra buy
+
+Total buy: 4	Expected: 4
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 3 coins... coins should increase by 4 
+
+Coins: 3	Expected: 7
+
+----------------- Test Failed -----------------
+
+Test Number 16	player: 4	deckCount: 14	handCount: 0	discardCount: 20
+
+
+Trashed card cost 0 coins
+Testing player 4 buys...should have 1 extra buy
+
+Total buy: 2	Expected: 2
+
+----------------- Test Passed -----------------
+Trashed card cost: 0 
+Testing player 4 coins... coins should increase by 0 
+
+Coins: 0	Expected: 0
+
+----------------- Test Passed -----------------
+------------------ Test number 16 complete with 0 failed tests --------------------
+
+Test Number 17	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+
+Trashed card cost 0 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 1 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+
+Test Number 17	player: 2	deckCount: 27	handCount: 1	discardCount: 20
+
+
+Trashed card cost 0 coins
+Testing player 2 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 2 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+------------------ Test number 17 complete with 1 failed tests --------------------
+
+Test Number 18	player: 1	deckCount: 10	handCount: 17	discardCount: 48
+
+
+Trashed card cost 0 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 1 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+
+Test Number 18	player: 2	deckCount: 27	handCount: 1	discardCount: 20
+
+
+Trashed card cost 0 coins
+Testing player 2 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 2 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+------------------ Test number 18 complete with 1 failed tests --------------------
+
+Test Number 19	player: 1	deckCount: 24	handCount: 3	discardCount: 2
+
+
+Trashed card cost 0 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 5	Expected: 5
+
+----------------- Test Passed -----------------
+Trashed card cost: 4 
+Testing player 1 coins... coins should increase by 4 
+
+Coins: 0	Expected: 4
+
+----------------- Test Failed -----------------
+
+Test Number 19	player: 2	deckCount: 21	handCount: 19	discardCount: 27
+
+
+Trashed card cost 4 coins
+Testing player 2 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 5 
+Testing player 2 coins... coins should increase by 5 
+
+Coins: 0	Expected: 5
+
+----------------- Test Failed -----------------
+
+Test Number 19	player: 3	deckCount: 63	handCount: 8	discardCount: 35
+
+
+Trashed card cost 0 coins
+Testing player 3 buys...should have 1 extra buy
+
+Total buy: 4	Expected: 4
+
+----------------- Test Passed -----------------
+Trashed card cost: 3 
+Testing player 3 coins... coins should increase by 3 
+
+Coins: 0	Expected: 3
+
+----------------- Test Failed -----------------
+------------------ Test number 19 complete with 1 failed tests --------------------
+
+Test Number 20	player: 1	deckCount: 2	handCount: 16	discardCount: 2
+
+
+Trashed card cost 4 coins
+Testing player 1 buys...should have 1 extra buy
+
+Total buy: 3	Expected: 3
+
+----------------- Test Passed -----------------
+Trashed card cost: 6 
+Testing player 1 coins... coins should increase by 6 
+
+Coins: 5	Expected: 11
+
+----------------- Test Failed -----------------
+------------------ Test number 20 complete with 1 failed tests --------------------
+------------------ 20 runs with total 84 tests completed with 39 failed tests --------------------
+File 'dominion.c'
+Lines executed:24.33% of 563
+Branches executed:24.94% of 417
+Taken at least once:19.18% of 417
+Calls executed:14.71% of 102
+Creating 'dominion.c.gcov'
+
         -:    0:Source:dominion.c
         -:    0:Graph:dominion.gcno
         -:    0:Data:dominion.gcda
