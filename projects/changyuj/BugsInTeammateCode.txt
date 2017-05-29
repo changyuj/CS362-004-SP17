@@ -1,0 +1,58 @@
+BugsInTeammateCode.txt
+
+Bug Report
+
+ID# 1
+Name: adventurer hand treasure count inaccurate
+Reported By: Yu Ju Chang
+Date: 5/25/2017
+
+Files Involved: dominion.c., dominion.h, rngs.h, rngs.c
+
+Reproducible: Yes
+
+Tester: randadvcard (random testing adventurer card)
+Description: adventurer does not add two extra cards to hand. The added card should be treasure cards.
+
+Steps to produce/reproduce results: 
+	1. run randadvcard binary
+	2. look at the results of test for player hand should have two increased cards and results for hand increased two treasure cards. 
+	Expected result: player hand cards increased by two and total treasure card in hand increased by two
+	Actual results: player hand cards does not increase by two card. the total treasure card in hand does not increase by two.
+
+cause: drawing card will only happen once since line 1122 while loop (drawnTreasure < 1).
+
+Serverity: Medium - the game can still be played without the adventurer card effect of adding treasure cards in hand, 
+				   however it will be a disadvantage to the player.
+Priority: Medium - The bug is encountered any time adventurer card is played and this will happen often as adventurer is one of the kingdom cards.
+
+Proposed Fix: correcting the while loop drawnTreasure < 1 to < 2.
+
+ID# 2
+Name: Smithy hand count inaccurate
+Reported By: Yu Ju Chang
+Date: 5/25/2017
+
+Files Involved: dominion.c., dominion.h, rngs.h, rngs.c
+
+Reproducible: Yes
+
+Tester: randtestcard1 (random testing smithy card)
+Description: Smithy card should have added 3 extra cards and discard smithy resulting in total of 2 card increase in hand.
+			 
+Steps to produce/reproduce results: 
+	1. run randtestcard1 binary
+	2. look at the results of test for player hand should have three increased cards and discard smithy so total hand count should have 2 card
+	   more than original hand cound.
+	Expected result: player hand cards increased by three and discard smithy card therefore, resulting in total hand count increase by 2 
+	Actual results: player hand cards increase by 1. 
+
+cause: The for loop for drawing card stars at 1 instead of 0 in line 1151 therefore causing the drawing of 2 card and dicarding smithy card 
+       resulting only 1 card increase in hand.
+
+Serverity: Medium - the game can still be played with inaccurate smithy card effect of adding three cards in hand, 
+				   however it will be a disadvantage to the player.
+Priority: Medium - The bug is encountered any time adventurer card is played and this will happen often as smithy is one of the kingdom cards.
+
+Proposed Fix: correcting the for loop to start at 0.
+
